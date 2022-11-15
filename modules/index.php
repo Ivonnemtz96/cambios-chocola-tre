@@ -89,6 +89,77 @@
     </div>
     <!-- Welcome Section /- -->
 
+    <!-- PRODUCTOS CHCOLATRE -->
+    <div id="menu-section" class="menu-section container-fluid" style="padding-top: 8rem">
+        <!-- Menu Section -->
+        <?
+    include('arrayProduct.php');
+
+    foreach ($productos as $categoria => $articulos) {
+
+    ?>
+        <div class="container">
+            <div class="section-header">
+                <h3><?php echo $categoria; ?></h3>
+                <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />
+
+            </div>
+            <!-- Section Header /-  -->
+        </div>
+        <!-- Container /- -->
+
+
+
+        <?php
+        $cantidad_de_productos = sizeof($articulos);
+        $ajuste_de_linea = 0;
+
+        if ($cantidad_de_productos % 2 != 0) {
+            $ajuste_de_linea = 1;
+        }
+
+        $columna_1 = round($cantidad_de_productos / 2);
+        $columna_2 = $columna_1 - $ajuste_de_linea;
+        $counter = 0;
+
+        foreach ($articulos as $key => $value) {
+            // echo "<pre>";
+            // var_dump($value);
+            // echo "</pre>";
+
+            if ($counter == 0) {
+                echo '<div class="row">';
+                echo '<div class="col-md-6 col-sm-6 col-xs-6" style="height: 100% !important">';
+            }
+        ?>
+        <div class="menu-box contenedor-productos">
+            <img style="width: auto; height: 100%;" class="product" src="<?php echo $value['imagen']; ?>"
+                alt="image not found" />
+            <h3>
+                <?php echo $value['nombre']; ?>
+            </h3>
+            <div style="max-height: 8rem; overflow: hidden; margin-bottom: 1rem;">
+                <p>
+                    <?php echo $value['precio']; ?> </br>
+                    <?php echo $value['descripcion']; ?>
+                </p>
+            </div>
+            <a href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>"
+                title="Ver producto">Ver producto</a>
+        </div>
+        <?
+            $counter++;
+            if ($counter == $columna_1) {
+                echo "</div>";
+                echo '<div class="col-md-6 col-sm-6 col-xs-6">';
+            }
+        }
+        echo "</div></div>";
+    }
+    ?>
+    </div>
+    <!-- FIN DE PRODUCTOS CHOCOLATRE /- -->
+
     <!-- VIDEO SECTION -->
     <div class="welcome-content" style="margin-top: 5rem;">
         <div class="section-header left-header">
@@ -97,7 +168,9 @@
         <!-- Section Header /-  -->
     </div>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/TZbpIY7IPBA" title="Video Chocolate" frameborder="0" allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/TZbpIY7IPBA" title="Video Chocolate" frameborder="0"
+            allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
 
     </div>
 
@@ -140,13 +213,19 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active">
-                        <a href="#partycakes" aria-controls="partycakes " role="tab" data-toggle="tab"><i><img src="images/festival-ic-1.png" alt="festival-ic-1" width="37" height="42" /></i>Chocolate</a>
+                        <a href="#partycakes" aria-controls="partycakes " role="tab" data-toggle="tab"><i><img
+                                    src="images/festival-ic-1.png" alt="festival-ic-1" width="37"
+                                    height="42" /></i>Chocolate</a>
                     </li>
                     <li role="presentation" onclick="myFunction()">
-                        <a href="#softcakes" aria-controls="softcakes" role="tab" data-toggle="tab"><i><img src="images/festival-ic-2.png" alt="festival-ic-2" width="37" height="42" /></i>Bombones</a>
+                        <a href="#softcakes" aria-controls="softcakes" role="tab" data-toggle="tab"><i><img
+                                    src="images/festival-ic-2.png" alt="festival-ic-2" width="37"
+                                    height="42" /></i>Bombones</a>
                     </li>
                     <li role="presentation" onclick="myFunction()">
-                        <a href="#berrycakes" aria-controls="berrycakes" role="tab" data-toggle="tab"><i><img src="images/festival-ic-4.png" alt="festival-ic-4" width="37" height="42" /></i>Cacao</a>
+                        <a href="#berrycakes" aria-controls="berrycakes" role="tab" data-toggle="tab"><i><img
+                                    src="images/festival-ic-4.png" alt="festival-ic-4" width="37"
+                                    height="42" /></i>Cacao</a>
                     </li>
                 </ul>
             </div>
@@ -166,11 +245,129 @@
     </div>
     <!-- VIDEO SECTION -->
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/HQ2bHIjCttY?autoplay=1" title="Video Chocolate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/HQ2bHIjCttY?autoplay=1" title="Video Chocolate" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </div>
 
+
+    <section class="section-primary pt-120 pb-120 gallery masonry">
+        <div class="container">
+            <div class="masonry-wrapper zoom-gallery">
+
+                <div class="row">
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/1.jpg" class="image-holder">
+                            <img src="images/gallery/1.jpg" alt="" />
+                            <div class="frame"></div>
+                        </a>
+                    </div>
+                    <!-- <div class="col-lg-3 galeria">
+                        <a href="images/gallery/2.jpg" class="image-holder">
+                            <img src="images/gallery/2.jpg" alt="" />
+                            <div class="frame"></div>
+                        </a>
+                    </div> -->
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/3.jpg" class="image-holder">
+                            <img src="images/gallery/3.jpg" alt="" />
+                            <div class="frame"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/4.jpg" class="image-holder">
+                            <img src="images/gallery/4.jpg" alt="" />
+                            <div class="frame"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/5.jpg" class="image-holder">
+                            <img src="images/gallery/5.jpg" alt="" />
+                            <div class="frame"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/6.jpg" class="image-holder">
+                            <img src="images/gallery/6.jpg" alt="" />
+                            <div class="frame"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/7.jpg" class="image-holder">
+                            <img src="images/gallery/7.jpg" alt="" />
+                            <div class="frame"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/8.jpg" class="image-holder">
+                            <img src="images/gallery/8.jpg" alt="" />
+                            <div class="frame"></div>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/9.jpg" class="image-holder">
+                            <img src="images/gallery/9.jpg" alt="" />
+                            <div class="frame"></div>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/10.jpg" class="image-holder">
+                            <img src="images/gallery/10.jpg" alt="" />
+                            <div class="frame"></div>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/11.jpg" class="image-holder">
+                            <img src="images/gallery/11.jpg" alt="" />
+                            <div class="frame"></div>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/12.jpg" class="image-holder">
+                            <img src="images/gallery/12.jpg" alt="" />
+                            <div class="frame"></div>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/13.jpg" class="image-holder">
+                            <img src="images/gallery/13.jpg" alt="" />
+                            <div class="frame"></div>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/14.jpg" class="image-holder">
+                            <img src="images/gallery/14.jpg" alt="" />
+                            <div class="frame"></div>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/15.jpg" class="image-holder">
+                            <img src="images/gallery/15.jpg" alt="" />
+                            <div class="frame"></div>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 galeria">
+                        <a href="images/gallery/16.jpg" class="image-holder">
+                            <img src="images/gallery/16.jpg" alt="" />
+                            <div class="frame"></div>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Order Section -->
-    <div hidden class="order-section container-fluid no-padding">
+    <div  class="order-section container-fluid no-padding">
         <div class="section-padding"></div>
         <div class="container">
             <div class="row">
@@ -211,7 +408,8 @@
                         <a title="Facebook" target="_blank" href="https://www.facebook.com/chocolatre.bcs">
                             <img src="images/facebook.png" alt="">
                         </a>
-                        <a title="Instagram" target="_blank" href="https://www.instagram.com/explore/locations/106154638122587/chocolatre/">
+                        <a title="Instagram" target="_blank"
+                            href="https://www.instagram.com/explore/locations/106154638122587/chocolatre/">
                             <img src="images/instagram.png" alt="">
                         </a>
 
