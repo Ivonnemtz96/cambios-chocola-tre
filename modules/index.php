@@ -237,7 +237,7 @@
 
     <div class="section-padding"></div>
 
-    <div class="welcome-content" style="margin-top: 5rem;">
+    <div id="historia" class="welcome-content" style="margin-top: 5rem;">
         <div class="section-header left-header">
             <h3 style="text-align: center;">Historia del dios Kukulkán</h3>
         </div>
