@@ -1084,6 +1084,16 @@ $productos = array(
             'imagen2' => "",
             'venta' => "Granel",
             'activo' => "1"
+        ),
+        2 => array(
+            'id' => 3,
+            'nombre' => "Chocolate Caliente",
+            'descripcion' => "Rico chocolate caliente",
+            'precio' => "$",
+            'imagen' => "/images/productos/frappe.jpg",
+            'imagen2' => "",
+            'venta' => "Granel",
+            'activo' => "1"
         )
     ),
     'Cacao, Nibs De Cacao Y Pasta De Cacao' => array(
