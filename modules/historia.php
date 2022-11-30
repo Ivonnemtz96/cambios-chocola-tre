@@ -1,7 +1,5 @@
 <main class="site-main page-spacing">
 
-    <div class="section-padding"></div>
-
     <div id="historia" class="welcome-content" style="margin-top: 5rem;">
         <div class="section-header left-header">
             <h3 style="text-align: center;">Historia del Chocolate</h3>
