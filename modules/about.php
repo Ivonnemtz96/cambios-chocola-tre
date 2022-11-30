@@ -8,7 +8,7 @@
     <!-- Page Banner /- -->
 
     <!-- Welcome Section 1 -->
-    <div class="welcome-section-1 container-fluid no-padding">
+    <div hidden class="welcome-section-1 container-fluid no-padding">
         <div class="section-padding"></div>
         <div class="container">
             <div class="section-header">
@@ -210,7 +210,7 @@
 
 
     <!-- Testimonial Section -->
-    <div class="testimonial-section container-fluid no-padding">
+    <div hidden class="testimonial-section container-fluid no-padding">
         <div class="section-padding"></div>
         <div class="container">
             <div class="section-header">
