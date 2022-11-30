@@ -1,7 +1,7 @@
 <main class="site-main page-spacing">
 
     <!-- Page Banner -->
-    <div class="page-banner container-fluid no-padding">
+    <div hidden class="page-banner container-fluid no-padding">
         <div class="page-banner-content">
             <h3>Contáctanos</h3>
         </div>

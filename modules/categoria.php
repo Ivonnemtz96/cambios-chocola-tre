@@ -3,7 +3,7 @@ include('arrayCategoria.php');
 ?>
 
 <!-- Page Banner -->
-<div class="page-banner container-fluid no-padding">
+<div hidden class="page-banner container-fluid no-padding">
     <div class="page-banner-content">
         <h3>Categorías</h3>
     </div>

@@ -1,6 +1,6 @@
 <main class="site-main page-spacing">
     <!-- Page Banner -->
-    <div class="page-banner container-fluid no-padding banner">
+    <div hidden class="page-banner container-fluid no-padding banner">
         <div class="page-banner-content">
             <h3>Galería</h3>
         </div>

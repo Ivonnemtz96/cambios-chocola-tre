@@ -6,7 +6,7 @@
     foreach ($productos as $categoria => $articulos) {
 
     ?>
-        <div class="container">
+        <div hidden class="container">
             <div class="section-header">
                 <h3><?php echo $categoria; ?></h3>
                 <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />

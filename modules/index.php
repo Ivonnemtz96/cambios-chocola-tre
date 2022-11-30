@@ -161,7 +161,7 @@
     <!-- FIN DE PRODUCTOS CHOCOLATRE /- -->
 
     <!-- PROCESO DEL CHOCOLATE VIDEO SECTION -->
-    <div class="welcome-content" style="margin-top: 5rem;">
+    <div class="welcome-content" style="margin-top:5rem;">
         <div class="section-header left-header">
             <h3 style="text-align: center;">Proceso del chocolate </h3>
         </div>
@@ -175,7 +175,7 @@
     </div>
 
     <!-- Festival Section -->
-    <div class="festival-section container-fluid no-padding">
+    <div hidden class="festival-section container-fluid no-padding">
         <div class="section-padding"></div>
         <div class="container">
             <div class="festival-details-tab">
@@ -239,22 +239,21 @@
 
     <div id="historia" class="welcome-content" style="margin-top: 5rem;">
         <div class="section-header left-header">
-            <h3 style="text-align: center;">Historia del dios Kukulkán</h3>
+            <h3 style="text-align: center;">Historia del Chocolate</h3>
         </div>
         <!-- Section Header /-  -->
     </div>
     <!-- VIDEO SECTION -->
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/HQ2bHIjCttY?autoplay=1" title="Video Chocolate" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        <iframe src="https://www.youtube.com/embed/HQ2bHIjCttY?" title="Video Chocolate" frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
 
-
+    <!-- Galería -->
     <section class="section-primary pt-120 pb-120 gallery masonry">
         <div class="container">
             <div class="masonry-wrapper zoom-gallery">
-
                 <div class="row">
                     <div class="col-lg-3 galeria">
                         <a href="images/gallery/1.jpg" class="image-holder">

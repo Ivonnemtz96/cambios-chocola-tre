@@ -1,6 +1,6 @@
 <main class="site-main page-spacing">
     <!-- Page Banner -->
-    <div class="page-banner container-fluid no-padding">
+    <div hidden class="page-banner container-fluid no-padding">
         <div class="page-banner-content">
             <h3><?php echo $categoria_producto; ?></h3>
         </div>
