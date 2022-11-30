@@ -65,7 +65,7 @@
                         <li class="<?php echo $proceso ?>">
                             <a  style="font-size: 9px;" href="proceso.php">Proceso</a>
                         </li>
-                        <li class="<?php echo $proceso ?>">
+                        <li class="<?php echo $historia ?>">
                             <a  style="font-size: 9px;" href="historia.php">Historia del chocolate</a>
                         </li>
                         <li class="<?php echo $galeria ?>">
