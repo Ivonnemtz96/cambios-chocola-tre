@@ -44,51 +44,52 @@ $categoria = array(
         ),
         6=> array(
             'id' => 7,
-            'nombre' => "Empaque",
-            'descripcion' => "Precios de empaque, sin bombones relleno.",
-            'imagen' => "/images/productos/canasta-colores.jpg",
-        ),
-        7=> array(
-            'id' => 8,
             'nombre' => "Gotas",
             'descripcion' => "Gotas de chocolate de cacao orgánico.",
             'imagen' => "/images/productos/semi-amargo.jpg",
         ),
-        8=> array(
-            'id' => 9,
+        7=> array(
+            'id' => 8,
             'nombre' => "Granos",
             'descripcion' => "Escoge el que más te guste.",
             'imagen' => "/images/productos/cacao.jpg",
         ),
-        9=> array(
-            'id' => 10,
+        8=> array(
+            'id' => 9,
             'nombre' => "Manteca",
             'descripcion' => "Grasa natural extraída de los granos de cacao.",
             'imagen' => "/images/productos/manteca-org.jpg",
         ),
-        10=> array(
-            'id' => 11,
-            'nombre' => "Frappes",
+        9=> array(
+            'id' => 10,
+            'nombre' => "Frappes y Chocolate caliente",
             'descripcion' => "Ven por el tuyo.",
             'imagen' => "/images/productos/frappe.jpg",
         ),
-        11=> array(
-            'id' => 12,
+        10=> array(
+            'id' => 11,
             'nombre' => "Cacao, Nibs De Cacao Y Pasta De Cacao",
             'descripcion' => "El sabor al natural.",
             'imagen' => "/images/productos/nibs-cacao.jpg",
         ),
-        12=> array(
-            'id' => 13,
+        11=> array(
+            'id' => 12,
             'nombre' => "Polvos",
             'descripcion' => "Los mejores sabores.",
             'imagen' => "/images/productos/cacao-polvo.jpg",
         ),
-        13=> array(
-            'id' => 14,
+        12=> array(
+            'id' => 13,
             'nombre' => "Varios",
             'descripcion' => "Ven por los tuyos.",
             'imagen' => "/images/productos/exp-vino.jpg",
         ),
+        13=> array(
+            'id' => 14,
+            'nombre' => "Empaque",
+            'descripcion' => "Precios de empaque, sin bombones relleno.",
+            'imagen' => "/images/productos/canasta-colores.jpg",
+        ),
     ),
 );
+

@@ -814,109 +814,6 @@ $productos = array(
             'activo' => "1"
         ),
     ),
-    'Empaque' => array(
-        0 => array(
-            'id' => 1,
-            'nombre' => "Brocheta de bombones",
-            'descripcion' => "",
-            'precio' => "$35",
-            'imagen' => "/images/productos/brocheta.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "1"
-        ),
-        1 => array(
-            'id' => 2,
-            'nombre' => "Canasta de colores",
-            'descripcion' => "Empaque Canasta De Colores",
-            'precio' => "$70",
-            'imagen' => "/images/productos/canasta-colores.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "1"
-        ),
-        2 => array(
-            'id' => 3,
-            'nombre' => "Empaque canasta de bambú",
-            'descripcion' => "",
-            // Empaque canasta de bambú
-            'precio' => "$35",
-            'imagen' => "/images/productos/canasta-natural.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "1"
-        ),
-        3 => array(
-            'id' => 4,
-            'nombre' => "Cayuco grande en acuarela",
-            'descripcion' => "",
-            'precio' => "$500",
-            'imagen' => "/images/productos/cayuco-acuarela.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "0"
-        ),
-        4 => array(
-            'id' => 5,
-            'nombre' => "Cayuco grande pirograbado",
-            'descripcion' => "",
-            'precio' => "$350",
-            'imagen' => "/images/productos/cayuco-gde.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "0"
-        ),
-        5 => array(
-            'id' => 6,
-            'nombre' => "Cayuco mediano en acuarela",
-            'descripcion' => "",
-            'precio' => "$220",
-            'imagen' => "/images/productos/cayuco-med-acuarela.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "0"
-        ),
-        6 => array(
-            'id' => 7,
-            'nombre' => "Cayuco mediano pirograbado",
-            'descripcion' => "",
-            'precio' => "$140.jpg",
-            'imagen' => "/images/productos/cayuco-mediano.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "0"
-        ),
-        7 => array(
-            'id' => 8,
-            'nombre' => "Cofre en acuarela",
-            'descripcion' => "Empaque Cofre De Madera En Acuarela",
-            'precio' => "$350",
-            'imagen' => "/images/productos/cofre.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "1"
-        ),
-        8 => array(
-            'id' => 9,
-            'nombre' => "Cofre pirograbado",
-            'descripcion' => "Empaque Cofre De Madera Pirograbado",
-            'precio' => "$250",
-            'imagen' => "/images/productos/cofre-pirograbado.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "1"
-        ),
-        9 => array(
-            'id' => 10,
-            'nombre' => "Empaque mini canastilla",
-            'descripcion' => "",
-            'precio' => "$45",
-            'imagen' => "/images/productos/empaque-mini.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "0"
-        )
-    ),
     'Gotas' => array(
         0 => array(
             'id' => 1,
@@ -1064,7 +961,7 @@ $productos = array(
             'activo' => "1"
         )
     ),
-    'Frappes' => array(
+    'Frappes y Chocolate caliente' => array(
         0 => array(
             'id' => 1,
             'nombre' => "Frappe de chocolate",
@@ -1404,6 +1301,109 @@ $productos = array(
             'activo' => "1"
         )
 
+    ),
+    'Empaque' => array(
+        0 => array(
+            'id' => 1,
+            'nombre' => "Brocheta de bombones",
+            'descripcion' => "",
+            'precio' => "$35",
+            'imagen' => "/images/productos/brocheta.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "1"
+        ),
+        1 => array(
+            'id' => 2,
+            'nombre' => "Canasta de colores",
+            'descripcion' => "Empaque Canasta De Colores",
+            'precio' => "$70",
+            'imagen' => "/images/productos/canasta-colores.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "1"
+        ),
+        2 => array(
+            'id' => 3,
+            'nombre' => "Empaque canasta de bambú",
+            'descripcion' => "",
+            // Empaque canasta de bambú
+            'precio' => "$35",
+            'imagen' => "/images/productos/canasta-natural.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "1"
+        ),
+        3 => array(
+            'id' => 4,
+            'nombre' => "Cayuco grande en acuarela",
+            'descripcion' => "",
+            'precio' => "$500",
+            'imagen' => "/images/productos/cayuco-acuarela.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "0"
+        ),
+        4 => array(
+            'id' => 5,
+            'nombre' => "Cayuco grande pirograbado",
+            'descripcion' => "",
+            'precio' => "$350",
+            'imagen' => "/images/productos/cayuco-gde.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "0"
+        ),
+        5 => array(
+            'id' => 6,
+            'nombre' => "Cayuco mediano en acuarela",
+            'descripcion' => "",
+            'precio' => "$220",
+            'imagen' => "/images/productos/cayuco-med-acuarela.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "0"
+        ),
+        6 => array(
+            'id' => 7,
+            'nombre' => "Cayuco mediano pirograbado",
+            'descripcion' => "",
+            'precio' => "$140.jpg",
+            'imagen' => "/images/productos/cayuco-mediano.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "0"
+        ),
+        7 => array(
+            'id' => 8,
+            'nombre' => "Cofre en acuarela",
+            'descripcion' => "Empaque Cofre De Madera En Acuarela",
+            'precio' => "$350",
+            'imagen' => "/images/productos/cofre.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "1"
+        ),
+        8 => array(
+            'id' => 9,
+            'nombre' => "Cofre pirograbado",
+            'descripcion' => "Empaque Cofre De Madera Pirograbado",
+            'precio' => "$250",
+            'imagen' => "/images/productos/cofre-pirograbado.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "1"
+        ),
+        9 => array(
+            'id' => 10,
+            'nombre' => "Empaque mini canastilla",
+            'descripcion' => "",
+            'precio' => "$45",
+            'imagen' => "/images/productos/empaque-mini.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "0"
+        )
     ),
 
 );
