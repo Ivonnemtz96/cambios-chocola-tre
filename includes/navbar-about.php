@@ -66,7 +66,7 @@
                             <a  style="font-size: 9px;" href="proceso.php">Proceso</a>
                         </li>
                         <li class="<?php echo $proceso ?>">
-                            <a  style="font-size: 9px;" href="index.php#historia">Historia del chocolate</a>
+                            <a  style="font-size: 9px;" href="historia.php">Historia del chocolate</a>
                         </li>
                         <li class="<?php echo $galeria ?>">
                             <a  style="font-size: 9px;" href="galeria.php">Galería</a>
