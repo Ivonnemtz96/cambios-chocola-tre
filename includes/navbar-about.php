@@ -65,6 +65,9 @@
                         <li class="<?php echo $proceso ?>">
                             <a href="proceso.php">Proceso</a>
                         </li>
+                        <li class="<?php echo $proceso ?>">
+                            <a href="index.php#historia">Historia del chocolate</a>
+                        </li>
                         <li class="<?php echo $galeria ?>">
                             <a href="galeria.php">Galería</a>
                         </li>
