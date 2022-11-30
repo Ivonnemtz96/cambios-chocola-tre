@@ -366,7 +366,7 @@
     </section>
 
     <!-- Order Section -->
-    <div  class="order-section container-fluid no-padding">
+    <div class="order-section container-fluid no-padding">
         <div class="section-padding"></div>
         <div class="container">
             <div class="row">
@@ -444,10 +444,12 @@
                 <!-- Section Header /- -->
                 <form class="row">
                     <div class="form-group col-md-12">
-                        <input type="text" id="nombre" name="nombre" required="" placeholder="Nombre" class="form-control">
+                        <input type="text" id="nombre" name="nombre" required="" placeholder="Nombre"
+                            class="form-control">
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="text" id="email" name="email" required="" placeholder="Correo" class="form-control">
+                        <input type="text" id="email" name="email" required="" placeholder="Correo"
+                            class="form-control">
                     </div>
                     <div class="form-group col-md-6">
                         <input type="text" id="tel" required="" name="tel" placeholder="Teléfono" class="form-control">
@@ -482,7 +484,10 @@
                 </div>
                 <!-- Map Section -->
                 <div class="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.033117080809!2d-109.69586178590691!3d23.059247420744764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86af5b5e2c583ca5%3A0x9999bd37cb735672!2sChocolaTre!5e0!3m2!1sen!2smx!4v1656954088879!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.033117080809!2d-109.69586178590691!3d23.059247420744764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86af5b5e2c583ca5%3A0x9999bd37cb735672!2sChocolaTre!5e0!3m2!1sen!2smx!4v1656954088879!5m2!1sen!2smx"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <!--  Map Section /- -->
             </div>
@@ -490,4 +495,71 @@
         <div class="section-padding"></div>
     </div>
     <!-- Contact Us 1 /- -->
+
+    <!-- Testimonial Section -->
+    <div class="testimonial-section container-fluid no-padding">
+        <div class="section-padding"></div>
+        <div class="container">
+            <div class="section-header">
+                <h3>Opiniones</h3>
+                <h5>Nuestros Clientes</h5>
+                <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />
+            </div>
+            <!-- Section Header /-  -->
+            <!-- Main Carousel -->
+            <div id="main-carousel2" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#main-carousel2" data-slide-to="0" class="active"></li>
+                    <li data-target="#main-carousel2" data-slide-to="1"></li>
+                    <li data-target="#main-carousel2" data-slide-to="2"></li>
+                </ol>
+                <div role="listbox" class="carousel-inner">
+                    <div class="item active">
+                        <div class="testimonial-content">
+                            <p>
+                                <span><i class="fa fa-quote-left"></i></span>
+                                El café confitado con chocolate fue mi favorito 🥰 Muy ricos productos, artesanales,
+                                Mexicanos, nuevos para mí. muchas gracias por la experiencia!
+                                <span><i class="fa fa-quote-right"></i></span>
+                            </p>
+                            <img src="images/testimonial.jpg" alt="testimonial" height="89" width="89" />
+                            <h3>Michelle CL</h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <p>
+                                <span><i class="fa fa-quote-left"></i></span>
+                                Todo el producto es más que bueno es exquisito, delicado, fino....estoy encantada con
+                                ese chocolate relleno de mole nunca pensé que existiera algo tan sublime.....los
+                                felicito y agradezco por traer ese manjar de dioses a nuestras manos❤😋😛
+                                <span><i class="fa fa-quote-right"></i></span>
+                            </p>
+                            <img src="images/testimonial.jpg" alt="testimonial" height="89" width="89" />
+                            <h3>Nora Luz Flores Muñoz </h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <p>
+                                <span><i class="fa fa-quote-left"></i></span>
+                                El mejor chocolate artesanal 100% mexicano está ahora en San José del Cabo. Tienen que
+                                probarlo
+                                <b>Bombones gourmet</b>
+                                <span><i class="fa fa-quote-right"></i></span>
+                            </p>
+                            <img src="images/testimonial.jpg" alt="testimonial" height="89" width="89" />
+                            <h3>Javier Alvarado</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Carousel /-  -->
+        </div>
+        <!-- Container /- -->
+        <div class="section-padding"></div>
+    </div>
+    <!-- Testimonial Section /- -->
 </main>

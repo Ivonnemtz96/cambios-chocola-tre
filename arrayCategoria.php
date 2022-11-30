@@ -3,8 +3,6 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-
-
 $categoria = array(	
 	'categoria' => array(
         0=> array(
@@ -21,7 +19,7 @@ $categoria = array(
         ),
         2=> array(
             'id' => 3,
-            'nombre' => "Muy Mexicanos",
+            'nombre' => "Barras Mexicanas",
             'descripcion' => "Exquisitos sabores mexicanos.",
             'imagen' => "/images/productos/catrina.jpg",
             'venta' => "Granel",

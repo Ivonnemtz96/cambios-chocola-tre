@@ -444,7 +444,7 @@ $productos = array(
             'activo' => "1"
         ),
     ),
-    'Muy Mexicanos' => array(
+    'Barras Mexicanas' => array(
         0 => array(
             'id' => 1,
             'nombre' => "Catrines",
