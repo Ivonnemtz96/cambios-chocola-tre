@@ -7,7 +7,7 @@
     </div>
 
     <!-- Welcome Section 1 -->
-    <div class="welcome-section-1 container-fluid no-padding" style="margin-top: 2rem;">
+    <div hidden class="welcome-section-1 container-fluid no-padding" style="margin-top: 2rem;">
 
         <div class="container">
             <div class="section-header">

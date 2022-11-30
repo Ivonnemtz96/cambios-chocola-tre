@@ -41,7 +41,7 @@
                     </button>
                     <a class="navbar-brand" href="index.php" title="Logo">
                         <h3>
-                            <img src="images/logo-white.png" alt="logo" style="width: 9rem;" />
+                            <img src="images/logo-white.png" alt="logo" style="width: 4.4rem;" />
                         </h3>
                     </a>
                 </div>
@@ -51,7 +51,7 @@
                 <div class="navbar-collapse collapse navbar-right" id="navbar">
                     <ul class="nav navbar-nav menubar">
                         <li class="<?php echo $inicio ?>">
-                            <a href="index.php" title="Portfolio" role="button" aria-haspopup="true">Inicio</a>
+                            <a style="font-size: 9px;" href="index.php" title="Portfolio" role="button" aria-haspopup="true">Inicio</a>
                             <!-- <ul class="dropdown-menu">
                                  <li>
                                      <a href="index-2.html" title="Portfolio grid">Home 1</a>
@@ -59,29 +59,29 @@
                              </ul> -->
                         </li>
                         <li class=" <?php echo $nosotros ?>">
-                            <a href="about.php" role="button" aria-haspopup="true">Nosotros</a>
+                            <a  style="font-size: 9px;" href="about.php" role="button" aria-haspopup="true">Nosotros</a>
                         </li>
-                        <li class="<?php echo $productos ?>"><a href="productos.php">Productos</a></li>
+                        <li class="<?php echo $productos ?>"><a  style="font-size: 9px;" href="productos.php">Productos</a></li>
                         <li class="<?php echo $proceso ?>">
-                            <a href="proceso.php">Proceso</a>
+                            <a  style="font-size: 9px;" href="proceso.php">Proceso</a>
                         </li>
                         <li class="<?php echo $proceso ?>">
-                            <a href="index.php#historia">Historia del chocolate</a>
+                            <a  style="font-size: 9px;" href="index.php#historia">Historia del chocolate</a>
                         </li>
                         <li class="<?php echo $galeria ?>">
-                            <a href="galeria.php">Galería</a>
+                            <a  style="font-size: 9px;" href="galeria.php">Galería</a>
                         </li>
                         <li class="<?php echo $contacto ?>">
-                            <a href="contact.php">Contáctanos</a>
+                            <a  style="font-size: 9px;" href="contact.php">Contáctanos</a>
                         </li>
 
                         <li>
                             <a title="Facebook" target="_blank" href="https://www.facebook.com/chocolatre.bcs">
-                                <img src="images/facebook.png" alt="">
+                                <img  src="images/facebook.png" alt="">
                             </a>
                         </li>
-                        <li>
-                            <a title="Instagram" target="_blank" href="https://www.instagram.com/explore/locations/106154638122587/chocolatre/">
+                        <li >
+                            <a  title="Instagram" target="_blank" href="https://www.instagram.com/explore/locations/106154638122587/chocolatre/">
                                 <img src="images/instagram.png" alt="">
                             </a>
                         </li>
