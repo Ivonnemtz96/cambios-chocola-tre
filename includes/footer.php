@@ -2,6 +2,23 @@
     #whatsapp {
         position: fixed;
         z-index: 999;
+        width: 4rem;
+        bottom: 110px;
+        right: 10px;
+    }
+
+    #face {
+        position: fixed;
+        z-index: 999;
+        width: 3rem;
+        bottom: 70px;
+        right: 10px;
+    }
+
+    #insta {
+        position: fixed;
+        z-index: 999;
+        width: 3rem;
         bottom: 30px;
         right: 10px;
     }
@@ -9,6 +26,14 @@
 </style>
 <a href="https://wa.me/+526241136699?text=Hola%20me%20gustaria%20saber%20más%20de%20sus%20productos." target="_blank">
     <img src="images/WA.png" alt="WhatsApp" id="whatsapp" />
+</a>
+
+<a href="https://www.facebook.com/chocolatre.bcs" target="_blank">
+    <img src="images/fb.png" alt="facebook" id="face" />
+</a>
+
+<a href="https://www.instagram.com/chocolatre.bcs/" target="_blank">
+    <img src="images/insta.png" alt="WhatsApp" id="insta" />
 </a>
 
 
