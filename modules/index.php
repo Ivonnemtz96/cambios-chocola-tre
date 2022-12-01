@@ -126,14 +126,21 @@
         $counter = 0;
 
         foreach ($articulos as $key => $value) {
+           
             // echo "<pre>";
             // var_dump($value);
             // echo "</pre>";
+           
 
+            if ($value['activo'] == "1") {
             if ($counter == 0) {
+                
                 echo '<div class="row text-center">';
                 echo '<div class="col-md-6 col-sm-6 col-xs-6" style="height: auto !important">';
+               
             }
+         
+
         ?>
         <div class="productos">
             <img style=" height: 400px;" class="product" src="<?php echo $value['imagen']; ?>" alt="image not found" />
@@ -162,6 +169,7 @@
                 echo '<div class="col-md-6 col-sm-6 col-xs-6">';
             }
         }
+    }
         echo "</div></div>";
     }
     ?>

@@ -321,7 +321,7 @@ $productos = array(
             'imagen' => "/images/productos/relleno-individual.jpg",
             'imagen2' => "",
             'venta' => "Granel",
-            'activo' => "1"
+            'activo' => "0"
         ),
         1 => array(
             'id' => 2,
@@ -668,7 +668,7 @@ $productos = array(
             'imagen' => "/images/productos/leche-con-frutos.jpg",
             'imagen2' => "",
             'venta' => "Por gramaje o kilo",
-            'activo' => "0"
+            'activo' => "1"
         ),
         2 => array(
             'id' => 3,
