@@ -444,24 +444,31 @@
         <!-- Container -->
         <div class="container">
             <div class="section-header left-header">
-                <h3>Visítanos</h3>
+                <h3>¡Síguenos en redes sociales!</h3>
                 <h5>Chocola-Tre Cacao Mexicano</h5>
                 <img src="images/section-seprator-1.png" alt="section-seprator-1" width="70" height="3">
                 <p>
                     Ven y prueba nuestros productos. ¡Te encantarán!
                 </p>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-4 col-md-4">
-                    <a href="">
+            <div class="row text-center">
+                <!-- <h3 style="margin-bottom: 2rem;">¡Síguenos en redes sociales!</h3> -->
+                <div class="col-2 col-md-2" style="margin-bottom: 3rem;"></div>
+                <div class="col-4 col-md-4" style="margin-bottom: 3rem;">
+                    <a href="https://www.facebook.com/chocolatre.bcs">
                         <img src="images/fb.png" alt="chocolatre">
+                        <h2 style="color:#3d180b !important;">ChocolaTre</h2>
                     </a>
                 </div>
-                <div class="col-4 col-md-4">
-                    <a href="">
+                <div class="col-4 col-md-4" style="margin-bottom: 3rem;">
+                    <a href="https://www.instagram.com/chocolatre.bcs/">
                         <img src="images/insta.png" alt="chocolatre">
+                        <h2 style="color:#3d180b !important;">@chocolatre.bcs</h2>
                     </a>
                 </div>
+                <div class="col-2 col-md-2" style="margin-bottom: 3rem;"></div>
+                <hr>
+
                 <div class="col-md-12 col-sm-12 col-xs-12 contact-detail" style="padding-top: 10px;">
                     <div class="col-md-4 col-sm-4 col-xs-4 contact-content">
                         <div class="contact-info">
