@@ -89,6 +89,9 @@
     </div>
     <!-- Welcome Section /- -->
 
+
+
+
     <!-- PRODUCTOS CHCOLATRE -->
     <div id="menu-section" class="menu-section container-fluid" style="padding-top: 8rem">
         <!-- Menu Section -->
@@ -128,25 +131,28 @@
             // echo "</pre>";
 
             if ($counter == 0) {
-                echo '<div class="row">';
-                echo '<div class="col-md-6 col-sm-6 col-xs-6" style="height: 100% !important">';
+                echo '<div class="row text-center">';
+                echo '<div class="col-md-6 col-sm-6 col-xs-6" style="height: auto !important">';
             }
         ?>
-        <div class="menu-box contenedor-productos">
-            <img style="width: auto; height: 100%;" class="product" src="<?php echo $value['imagen']; ?>"
+        <div class="productos">
+            <img style=" height: 400px;" class="product" src="<?php echo $value['imagen']; ?>"
                 alt="image not found" />
-            <h3>
-                <?php echo $value['nombre']; ?>
-            </h3>
-            <div style="max-height: 8rem; overflow: hidden; margin-bottom: 1rem;">
-                <p>
-                    <?php echo $value['precio']; ?> </br>
-                    <?php echo $value['descripcion']; ?>
-                </p>
-            </div>
+
             <!-- <a href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>"
                 title="Ver producto">Ver producto</a> -->
+
+                <h3>
+                    <a style="color:#3d180b !important;"  href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>"><?php echo $value['nombre']; ?></a>
+                </h3>
+                <div style="max-height: 8rem; overflow: hidden; margin-bottom: 1rem;">
+                    <p style="color:#3d180b;" >
+                        <?php echo $value['precio']; ?> </br>
+                    </p>
+                    <h4 ><a style="color:#3d180b !important;"  href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>"  >Ver más</a></h4>
+                </div>
         </div>
+
         <?
             $counter++;
             if ($counter == $columna_1) {
@@ -160,6 +166,12 @@
     </div>
     <!-- FIN DE PRODUCTOS CHOCOLATRE /- -->
 
+
+
+
+
+
+
     <!-- PROCESO DEL CHOCOLATE VIDEO SECTION -->
     <div class="welcome-content" style="margin-top:5rem;">
         <div class="section-header left-header">
@@ -171,7 +183,6 @@
         <iframe src="https://www.youtube.com/embed/TZbpIY7IPBA" title="Video Chocolate" frameborder="0"
             allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
-
     </div>
 
     <!-- Festival Section -->
