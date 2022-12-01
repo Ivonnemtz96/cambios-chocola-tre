@@ -467,8 +467,8 @@
                     </a>
                 </div>
                 <div class="col-2 col-md-2" style="margin-bottom: 3rem;"></div>
-                <hr>
 
+                
                 <div class="col-md-12 col-sm-12 col-xs-12 contact-detail" style="padding-top: 10px;">
                     <div class="col-md-4 col-sm-4 col-xs-4 contact-content">
                         <div class="contact-info">
