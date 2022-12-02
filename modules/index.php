@@ -124,7 +124,7 @@
             if ($value['activo'] == "1") {
         ?>
 
-            <div class="col-md-4 col-sm-4 col-xs-4" style="height: auto !important">
+            <div class="col-md-4 col-sm-6 col-xs-12" style="height: auto !important">
                 <div class="productos">
                     <img style=" height: 400px;" class="product" src="<?php echo $value['imagen']; ?>"
                         alt="image not found" />
@@ -146,12 +146,13 @@
                     </div>
                 </div>
             </div>
-
             <?
         }
     }
     ?>
+
      </div>
+    
     <?
     }
     ?>

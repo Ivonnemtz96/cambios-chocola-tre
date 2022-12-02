@@ -8,7 +8,7 @@ $productos = array(
             'nombre' => "Chocolate macizo con leche",
             'descripcion' => "",
             // Chocolate macizo con leche
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/macizo_leche.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -20,7 +20,7 @@ $productos = array(
             'nombre' => "Relleno De Café",
             'descripcion' => "", 
             // Relleno De Café
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/relleno-cafe.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -31,7 +31,7 @@ $productos = array(
             'nombre' => "Relleno de cajeta",
             'descripcion' => "",
             // Relleno de cajeta
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/cajeta.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -42,7 +42,7 @@ $productos = array(
             'nombre' => "Relleno de cereza con licor",
             'descripcion' => "",
             // Relleno de cereza con licor
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/cereza.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -63,7 +63,7 @@ $productos = array(
             'nombre' => "Relleno de crema de cacahuate",
             'descripcion' => "",
             // Relleno de crema de cacahuate
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/crema_cacahuate.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -72,8 +72,8 @@ $productos = array(
         6 => array(
             'id' => 7,
             'nombre' => "Relleno de  vainilla",
-            'descripcion' => "<!--Relleno de vainilla -->",
-            'precio' => "$15 a $19 pesos por pieza",
+            'descripcion' => "",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/vainilla.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -84,7 +84,7 @@ $productos = array(
             'nombre' => "Relleno de fresa",
             'descripcion' => "",
             // Relleno de fresa
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/fresa.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -95,7 +95,7 @@ $productos = array(
             'nombre' => "Relleno de guanábana",
             'descripcion' => "",
             // Relleno de guanábana
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/guanabana.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -116,7 +116,7 @@ $productos = array(
             'nombre' => "Relleno de mango",
             'descripcion' => "",
             // Relleno de mango
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/mango.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -127,7 +127,7 @@ $productos = array(
             'nombre' => "Relleno de maracuyá",
             'descripcion' => "",
             // Relleno de maracuyá
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/maracuya.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -138,7 +138,7 @@ $productos = array(
             'nombre' => "Relleno de crema de avellana",
             'descripcion' => "",
             // Relleno de avellana
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/nutella.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -149,7 +149,7 @@ $productos = array(
             'nombre' => "Relleno de rompope",
             'descripcion' => "",
             // Relleno de rompope
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/rompope.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -160,7 +160,7 @@ $productos = array(
             'nombre' => "Relleno de vino",
             'descripcion' => "",
             // Relleno de vino tinto
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/vino.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -171,7 +171,7 @@ $productos = array(
             'nombre' => "Relleno de zarzamora",
             'descripcion' => "",
             // Relleno de zarzamora
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/zarzamora.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -181,7 +181,7 @@ $productos = array(
             'id' => 17,
             'nombre' => "Trufas",
             'descripcion' => "Trufas de chocolate semiamargo: sabor natural y moka",
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/vino.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -205,13 +205,13 @@ $productos = array(
             'imagen' => "/images/productos/bolsita-colores.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
-            'activo' => "1"
+            'activo' => "0"
         ),
         19 => array(
             'id' => 20,
             'nombre' => "Fresas con chocolate",
-            'descripcion' => "Fresas con chocolate (blanco, de leche y semiamargo)",
-            'precio' => "$700",
+            'descripcion' => "Fresas con chocolate (blanco, de leche o semiamargo)",
+            'precio' => "$15-18 pza",
             'imagen' => "/images/productos/fresas.jpg",
             'imagen2' => "/images/productos/fresas-2.jpg",
             'venta' => "Por pieza",
@@ -222,7 +222,7 @@ $productos = array(
             'nombre' => "Bombón relleno de Baileys",
             'descripcion' => "",
             // Bombón relleno de Baileys
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/relleno-baileys.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -233,7 +233,7 @@ $productos = array(
             'nombre' => "Bombón relleno de almendra caramelizada",
             'descripcion' => "",
             // Bombón relleno de almendra caramelizada
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/almendra-caramelizada.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -241,10 +241,10 @@ $productos = array(
         ),
         22 => array(
             'id' => 23,
-            'nombre' => "Chocolate macizo semiamargo con nuez",
+            'nombre' => "Chocolate semiamargo con nuez al 70%",
             'descripcion' => "",
             // Macizo chocolate semiamargo con nuez
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/macizo-nuez.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -254,7 +254,7 @@ $productos = array(
             'id' => 24,
             'nombre' => "Chocolate pranilé vegano",
             'descripcion' => "Relleno con pranilé de almendra vegano",
-            'precio' => "$25",
+            'precio' => "$23",
             'imagen' => "/images/productos/pranile-vegano.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -265,7 +265,7 @@ $productos = array(
             'nombre' => "Bombón relleno de frutos rojos",
             'descripcion' => "",
             // Bombón relleno de frutos rojos
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/frutos-rojos.jpg",
             'imagen2' => "/images/productos/frutos-rojos-2.jpg",
             'venta' => "Por pieza",
@@ -299,7 +299,7 @@ $productos = array(
             'imagen' => "/images/productos/bomba.jpg",
             'imagen2' => "",
             'venta' => "Granel",
-            'activo' => "1"
+            'activo' => "0"
         ),
         28 => array(
             'id' => 29,
@@ -328,7 +328,7 @@ $productos = array(
             'nombre' => "Relleno de damiana",
             'descripcion' => "",
             // Relleno de damiana
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/damiana.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -339,7 +339,7 @@ $productos = array(
             'nombre' => "Relleno de mezcal",
             'descripcion' => "",
             // Relleno de mezcal
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/mezcal.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -350,7 +350,7 @@ $productos = array(
             'nombre' => "Relleno de mole",
             'descripcion' => "",
             // Relleno de mole
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/mole.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -361,7 +361,7 @@ $productos = array(
             'nombre' => "Relleno de naranja caramelizada",
             'descripcion' => "",
             // Relleno de naranja caramelizada
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/naranja.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -372,7 +372,7 @@ $productos = array(
             'nombre' => "Relleno de piña coco",
             'descripcion' => "",
             // Relleno de piña coco
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/pina-coco.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -383,7 +383,7 @@ $productos = array(
             'nombre' => "Relleno de tamarindo",
             'descripcion' => "",
             // Relleno de tamarindo
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/tamarindo.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -394,7 +394,7 @@ $productos = array(
             'nombre' => "Relleno de tamarindo con chile",
             'descripcion' => "",
             // Relleno de tamarindo con chile
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/tamarindo-c-chile.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -405,42 +405,21 @@ $productos = array(
             'nombre' => "Relleno de tequila",
             'descripcion' => "",
             // Relleno de tequila
-            'precio' => "$15 a $19 pesos por pieza",
+            'precio' => "$15 a $18 pesos por pieza",
             'imagen' => "/images/productos/tequila.jpg",
             'imagen2' => "",
             'venta' => "Granel",
             'activo' => "1"
         ),
-        10 => array(
-            'id' => 11,
-            'nombre' => "Caja con 25 chocolates",
-            'descripcion' => "Caja con 25 bombones de chocolate",
-            'precio' => "Precio variable, pregunte en nuestra tienda.",
-            'imagen' => "/images/productos/caja-25-1.jpg",
-            'imagen2' => "/images/productos/caja-25-2.jpg",
-            'venta' => "Caja",
-            'activo' => "1"
-        ),
-        11 => array(
-            'id' => 12,
-            'nombre' => "Caja con 35 chocolates",
-            'descripcion' => "",
-            // Caja con 35 bombones de chocolate
-            'precio' => "Precio variable, pregunte en nuestra tienda.",
-            'imagen' => "/images/productos/caja-35.jpg",
-            'imagen2' => "",
-            'venta' => "Caja",
-            'activo' => "1"
-        ),
-        12 => array(
-            'id' => 13,
-            'nombre' => "Caja con 50 bombones de chocolate",
-            'descripcion' => "",
+        9 => array(
+            'id' => 10,
+            'nombre' => "Dátil relleno de almendra",
+            'descripcion' => "Dátil relleno de almendra y cubierto con chocolate semiamargo",
             // Caja con 50 bombones de chocolate
-            'precio' => "Precio variable, pregunte en nuestra tienda.",
-            'imagen' => "/images/productos/caja-50.jpg",
-            'imagen2' => "/images/productos/caja-50-2.jpg",
-            'venta' => "Caja",
+            'precio' => "$",
+            'imagen' => "/images/productos/datil.jpg",
+            'imagen2' => "",
+            'venta' => "Pieza",
             'activo' => "1"
         ),
     ),
@@ -471,7 +450,7 @@ $productos = array(
             'id' => 1,
             'nombre' => "Barra 100% cacao",
             'descripcion' => "Barra de chocolate hecho con cacao criollo almendra blanca y un toque fresco de menta",
-            'precio' => "$70",
+            'precio' => "$70 pza",
             'imagen' => "/images/productos/100-cacao.jpg",
             'imagen2' => "",
             'venta' => "Peso",
@@ -512,7 +491,7 @@ $productos = array(
             'nombre' => "Barra de chocolate con menta - pza",
             'descripcion' => "Barra de chocolate hecho con cacao criollo almendra blanca y un toque fresco de menta 100gr",
             'precio' => "$130",
-            'imagen' => "/images/productos/barra-menta.jpg",
+            'imagen' => "/images/productos/barra-cardomomo.jpg",
             'imagen2' => "",
             'venta' => "Peso",
             'activo' => "1"
@@ -529,10 +508,10 @@ $productos = array(
         ),
         6 => array(
             'id' => 7,
-            'nombre' => "Barra semiamarga con cardomomo",
+            'nombre' => "Barra con cardomomo",
             'descripcion' => "Barra de Chocolate Semiamargo y cardamomo 80 gr",
             'precio' => "$120",
-            'imagen' => "/images/productos/barra-cardomomo.jpg",
+            'imagen' => "/images/productos/barra-menta.jpg",
             'imagen2' => "",
             'venta' => "Peso",
             'activo' => "1"
@@ -569,7 +548,7 @@ $productos = array(
         ),
         10 => array(
             'id' => 11,
-            'nombre' => "Barra Maya chocolate semiamargo 50gr",
+            'nombre' => "Barra Maya chocolate semiamargo",
             'descripcion' => "Barra de chocolate semiamargo hecho con cacao criollo almendra blanca con diseño maya",
             'precio' => "$80",
             'imagen' => "/images/productos/barra-maya.jpg",
@@ -579,13 +558,13 @@ $productos = array(
         ),
         11 => array(
             'id' => 12,
-            'nombre' => "Chocolate con Cardomomo",
-            'descripcion' => "Barra de chocolate hecho con cacao criollo almendra blanca con diseño de cacao",
-            'precio' => "$120",
-            'imagen' => "/images/productos/tequila.jpg",
+            'nombre' => "Barra con flor chica",
+            'descripcion' => "",
+            'precio' => "$90 pieza",
+            'imagen' => "/images/productos/barra-flores.jpg",
             'imagen2' => "",
-            'venta' => "Granel",
-            'activo' => "0"
+            'venta' => "Pieza",
+            'activo' => "1"
         ),
         12 => array(
             'id' => 13,
@@ -599,7 +578,7 @@ $productos = array(
         ),
         13 => array(
             'id' => 14,
-            'nombre' => "Barra chocolate semi amargo con sal",
+            'nombre' => "Barra chocolate con sal de mar",
             'descripcion' => "Barra de Chocolate Semiamargo con Sal 70gr",
             'precio' => "$90",
             'imagen' => "/images/productos/semi-amargo-sal.jpg",
@@ -616,11 +595,11 @@ $productos = array(
             'imagen' => "/images/productos/conejito.jpg",
             'imagen2' => "",
             'venta' => "Granel",
-            'activo' => "1"
+            'activo' => "0"
         ),
         15 => array(
             'id' => 16,
-            'nombre' => "Barra con flores",
+            'nombre' => "Barra con flores grande",
             'descripcion' => "Barra de chocolate semiamargo hecho con cacao diseño de flores 125g",
             'precio' => "$150",
             'imagen' => "/images/productos/barra-flores.jpg",
@@ -668,7 +647,7 @@ $productos = array(
             'imagen' => "/images/productos/leche-con-frutos.jpg",
             'imagen2' => "",
             'venta' => "Por gramaje o kilo",
-            'activo' => "1"
+            'activo' => "0"
         ),
         2 => array(
             'id' => 3,
@@ -686,7 +665,7 @@ $productos = array(
             'id' => 1,
             'nombre' => "Almendras con chocolate blanco",
             'descripcion' => "Almendras cubiertas con chocolate blanco 32% cacao, leche y azúcar de caña añadida. El chocolate blanco es elaborado únicamente con manteca de cacao orgánica, Un snack delicioso y saludable, elaborado con cacao puro y orgánico de la más alta calidad.",
-            'precio' => "$775",
+            'precio' => "$775 kg",
             'imagen' => "/images/productos/almendras-cacao-bco.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -696,7 +675,7 @@ $productos = array(
             'id' => 2,
             'nombre' => "Almendras con chocolate semi amargo",
             'descripcion' => "Almendras tostadas cubiertas con chocolate semi amargo 32% cacao, con leche y azúcar de caña añadida. Un snack delicioso y saludable, libre de saborizantes y grasas añadidas. Elaborado con cacao puro y orgánico de la más alta calidad.",
-            'precio' => "$775",
+            'precio' => "$775 kg",
             'imagen' => "/images/productos/almendras-choco.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -706,7 +685,7 @@ $productos = array(
             'id' => 3,
             'nombre' => "Almendras con chocolate de leche",
             'descripcion' => "Almendras tostadas cubiertas con chocolate semi amargo 70% cacao, azúcar de caña añadida y cacao en polvo natural. Un snack delicioso y saludable, libre de saborizantes y grasas añadidas. Elaborado con cacao puro y orgánico de la más alta calidad.",
-            'precio' => "$775",
+            'precio' => "$775 kg",
             'imagen' => "/images/productos/almendras-choco.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -716,7 +695,7 @@ $productos = array(
             'id' => 4,
             'nombre' => "Café confitado con chocolate de leche",
             'descripcion' => "Café tostado cubierto con chocolate 38% cacao, leche y azúcar de caña añadida. Disfruta de la cremosidad del chocolate real y el intenso sabor del café, Un snack delicioso y saludable de la más alta calidad.",
-            'precio' => "$700",
+            'precio' => "$700 kg",
             'imagen' => "/images/productos/cafe-confitado.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -730,7 +709,7 @@ $productos = array(
             'imagen' => "/images/productos/datil.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
-            'activo' => "1"
+            'activo' => "0"
         ),
         5 => array(
             'id' => 6,
@@ -740,13 +719,13 @@ $productos = array(
             'imagen' => "/images/productos/galleta-rellena.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
-            'activo' => "1"
+            'activo' => "0"
         ),
         6 => array(
             'id' => 7,
             'nombre' => "Nibs de cacao con chocolate blanco",
             'descripcion' => "Pedacitos crujientes al 32% de cacao cubiertos con chocolate blanco, con un sabor amargo ligero, listos para comerse.",
-            'precio' => "$675",
+            'precio' => "$675 kg",
             'imagen' => "/images/productos/nibs-choco-bco.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -754,9 +733,9 @@ $productos = array(
         ),
         7 => array(
             'id' => 8,
-            'nombre' => "Pasitas con chocolate de leche",
+            'nombre' => "Pasitas con chocolate semiamargo",
             'descripcion' => "Snack de pasas cubiertas con chocolate 38% cacao orgánico.",
-            'precio' => "$675",
+            'precio' => "$675 kg",
             'imagen' => "/images/productos/almendras-choco.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -764,62 +743,21 @@ $productos = array(
         ),
         8 => array(
             'id' => 9,
-            'nombre' => "Pasitas con chocolate semi amargo al 70%",
+            'nombre' => "Pasitas de chocolate de leche",
             'descripcion' => "Pasas cubiertas con chocolate 70% cacao orgánico con leche y azúcar de caña añadida, producto 100% mexicano de gran calidad.",
-            'precio' => "$675",
+            'precio' => "$675 kg",
             'imagen' => "/images/productos/almendras-choco.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
             'activo' => "1"
-        ),
-        9 => array(
-            'id' => 10,
-            'nombre' => "Tejas de cacahuate con chocolate amargo al 100% cacao",
-            'descripcion' => "Un buen snack, almendras tostadas cubiertas con chocolate semi amargo 12gr.",
-            'precio' => "$20",
-            'imagen' => "/images/productos/tejas.jpg",
-            'imagen2' => "",
-            'venta' => "Por kilo o gramaje",
-            'activo' => "1"
-        ),
-        10 => array(
-            'id' => 11,
-            'nombre' => "Tortuga de nuez y dátil 35gr.",
-            'descripcion' => "Un buen snack, almendras tostadas cubiertas con chocolate semi amargo.",
-            'precio' => "$50",
-            'imagen' => "/images/productos/tortuga.jpg",
-            'imagen2' => "",
-            'venta' => "Por kilo o gramaje",
-            'activo' => "1"
-        ),
-        11 => array(
-            'id' => 12,
-            'nombre' => "Chocolate con maltitol",
-            'descripcion' => "Chocolate con maltitol al 70%.",
-            'precio' => "$140",
-            'imagen' => "/images/productos/maltitol-70.jpg",
-            'imagen2' => "",
-            'venta' => "Por kilo o gramaje",
-            'activo' => "0"
-        ),
-        12 => array(
-            'id' => 13,
-            'nombre' => "Almendras de chocolate con leche",
-            'descripcion' => "",
-            // Almendras de chocolate con leche.
-            'precio' => "$775",
-            'imagen' => "/images/productos/almendras-chocoleche.jpg",
-            'imagen2' => "",
-            'venta' => "Por kilo o gramaje",
-            'activo' => "1"
-        ),
+        )
     ),
     'Gotas' => array(
         0 => array(
             'id' => 1,
-            'nombre' => "Chocolate amargo 100% - 100 gramos",
+            'nombre' => "Gotas de chocolate 100%",
             'descripcion' => "Gotas de chocolate 100% cacao",
-            'precio' => "$570",
+            'precio' => "$570 kg",
             'imagen' => "/images/productos/semi-amargo.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -827,19 +765,19 @@ $productos = array(
         ),
         1 => array(
             'id' => 2,
-            'nombre' => "Gotas de chocolate de leche 38% - 100 gramos",
-            'descripcion' => "Gotas de chocolate de leche 38% - 100 gramos",
-            'precio' => "$540",
+            'nombre' => "Gotas de chocolate al 38%",
+            'descripcion' => "Gotas de chocolate 38% - 100 gramos",
+            'precio' => "$540 kg",
             'imagen' => "/images/productos/semi-amargo.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
-            'activo' => "0"
+            'activo' => "1"
         ),
         2 => array(
             'id' => 3,
-            'nombre' => "Gotas de chocolate blanco 32% - 100 gramos",
-            'descripcion' => "Gotas de chocolate blanco 32% - 100 gramos",
-            'precio' => "$540",
+            'nombre' => "Gotas de chocolate blanco",
+            'descripcion' => "Gotas de chocolate blanco",
+            'precio' => "$540 kg",
             'imagen' => "/images/productos/blanco.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -847,41 +785,31 @@ $productos = array(
         ),
         3 => array(
             'id' => 4,
-            'nombre' => "Gotas de chocolate obscuro 46% - 100 gramos",
+            'nombre' => "Gotas de chocolate de maltitol",
             'descripcion' => "",
-            'precio' => "$",
-            'imagen' => "/images/productos/semi-amargo.jpg",
-            'imagen2' => "",
-            'venta' => "Por kilo o gramaje",
-            'activo' => "0"
-        ),
-        4 => array(
-            'id' => 5,
-            'nombre' => "Gotas de chocolate semi amargo 70% - 100 gramos",
-            'descripcion' => "Gotas de chocolate semi amargo 70% - 100 gramos",
-            'precio' => "$540.jpg",
+            'precio' => "$680 kg",
             'imagen' => "/images/productos/semi-amargo.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
             'activo' => "1"
         ),
-        5 => array(
-            'id' => 6,
-            'nombre' => "Chocolate semi amargo 70% - 100 gramos",
-            'descripcion' => "",
-            'precio' => "$79",
+        4 => array(
+            'id' => 5,
+            'nombre' => "Gotas de chocolate al 70%",
+            'descripcion' => "Gotas de chocolate 70% - 100 gramos",
+            'precio' => "$540.jpg",
             'imagen' => "/images/productos/semi-amargo.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
-            'activo' => "0"
+            'activo' => "1"
         )
     ),
     'Granos' => array(
         0 => array(
             'id' => 1,
-            'nombre' => "Granos de chocolate amargo",
-            'descripcion' => "Grano Chocolate Semiamargo  100 gramos",
-            'precio' => "$115",
+            'nombre' => "Granos de chocolate semiamargo al 70% cacao",
+            'descripcion' => "Grano Chocolate Semiamargo al 70% cacao  100 gramos",
+            'precio' => "$110 kg",
             'imagen' => "/images/productos/semi-amargo.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -891,7 +819,7 @@ $productos = array(
             'id' => 2,
             'nombre' => "Granos de chocolate blanco",
             'descripcion' => "Grano Chocolate blanco  100 gramos",
-            'precio' => "$110",
+            'precio' => "$110 kg",
             'imagen' => "/images/productos/blanco.jpg",
             'imagen2' => "",
             'venta' => "Granel",
@@ -899,31 +827,20 @@ $productos = array(
         ),
         2 => array(
             'id' => 3,
-            'nombre' => "Granos de chocolate con leche",
+            'nombre' => "Granos de chocolate de leche",
             'descripcion' => "Grano Chocolate de leche  100 gramos",
-            'precio' => "$110",
+            'precio' => "$110 kg",
             'imagen' => "/images/productos/semi-amargo.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
             'activo' => "1"
-        ),
-        3 => array(
-            'id' => 4,
-            'nombre' => "Grano chocolate con maltitol al 70%",
-            'descripcion' => "",
-            // Chocolate con maltitol al 70%
-            'precio' => "$140",
-            'imagen' => "/images/productos/maltitol-70.jpg",
-            'imagen2' => "",
-            'venta' => "Por kilo o gramaje",
-            'activo' => "0"
-        ),
+        )
     ),
     'Manteca' => array(
         0 => array(
             'id' => 1,
-            'nombre' => "Manteca de cacao orgánica",
-            'descripcion' => "Manteca de cacao orgánica - 100 gramos",
+            'nombre' => "Manteca de cacao 1 kilo",
+            'descripcion' => "Manteca de cacao 1 Kilo",
             'precio' => "$90",
             'imagen' => "/images/productos/manteca-cacao.jpg",
             'imagen2' => "",
@@ -932,7 +849,7 @@ $productos = array(
         ),
         1 => array(
             'id' => 2,
-            'nombre' => "Manteca de cacao",
+            'nombre' => "Manteca de cacao orgánica",
             'descripcion' => "Manteca de cacao orgánica - 200 gramos",
             'precio' => "$160",
             'imagen' => "/images/productos/manteca-org.jpg",
@@ -942,19 +859,9 @@ $productos = array(
         ),
         2 => array(
             'id' => 3,
-            'nombre' => "Manteca de cacao envase de 100 gramos",
+            'nombre' => "Manteca de cacao presentación 100 gramos",
             'descripcion' => "",
             'precio' => "$95",
-            'imagen' => "/images/productos/manteca-envase.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "1"
-        ),
-        3 => array(
-            'id' => 4,
-            'nombre' => "Manteca de cacao",
-            'descripcion' => "Manteca de cacao a granel",
-            'precio' => "$700",
             'imagen' => "/images/productos/manteca-envase.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -996,9 +903,9 @@ $productos = array(
     'Cacao, Nibs De Cacao Y Pasta De Cacao' => array(
         0 => array(
             'id' => 1, 
-            'nombre' => "Cacao 100 gramos",
+            'nombre' => "Semilla Blend de cacao",
             'descripcion' => "Grano de cacao blend, fermentado y secado.",
-            'precio' => "$25",
+            'precio' => "$250 kg",
             'imagen' => "/images/productos/cacao.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -1008,7 +915,7 @@ $productos = array(
             'id' => 2,
             'nombre' => "Nibs de cacao ",
             'descripcion' => "Pedacitos crujientes de cacao tostado, con un sabor amargo ligero, listos para comerse.",
-            'precio' => "$430",
+            'precio' => "$350 kg",
             'imagen' => "/images/productos/nibs-cacao.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -1016,9 +923,9 @@ $productos = array(
         ),
         2 => array(
             'id' => 3,
-            'nombre' => "Pasta de cacao troseada - 100 gramos",
+            'nombre' => "Pasta de cacao",
             'descripcion' => "Cacao orgánico molido. A partir de la pasta de cacao surgen los chocolates. La pasta es simplemente el cacao molido, este se vuelve líquido por el calor y la fricción, posteriormente se deja reposar y vuelve a endurecerse. Cada chocolatero añade leche o endulzante, refina y convierte en un sedoso chocolate. Esta pasta de cacao, de la mejor calidad, podrás usarla para hacer tus propias creaciones chocolateras. Además, es un producto 100% mexicano.",
-            'precio' => "$35",
+            'precio' => "$300 kg",
             'imagen' => "/images/productos/troseada.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -1030,7 +937,7 @@ $productos = array(
             'id' => 1,
             'nombre' => "Cacao en polvo ",
             'descripcion' => "100% cacao molido.",
-            'precio' => "$430",
+            'precio' => "$430 kg",
             'imagen' => "/images/productos/cacao-polvo.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -1040,7 +947,7 @@ $productos = array(
             'id' => 2,
             'nombre' => "Chocolate en polvo",
             'descripcion' => "Cacao en polvo, leche y azucar.",
-            'precio' => "$280",
+            'precio' => "$280 kg",
             'imagen' => "/images/productos/cacao-polvo.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -1048,9 +955,9 @@ $productos = array(
         ),
         2 => array(
             'id' => 3,
-            'nombre' => "Cocoa en polvo",
+            'nombre' => "Cocoa alcalina",
             'descripcion' => "Cacao alcalinizado.",
-            'precio' => "$510",  
+            'precio' => "$510 kg",  
             'imagen' => "/images/productos/cacao-polvo.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -1058,9 +965,9 @@ $productos = array(
         ),
         3 => array(
             'id' => 4,
-            'nombre' => "Preparado moka en polvo",
+            'nombre' => "Moka",
             'descripcion' => "Rica mezcla de cacao y café en polvo.",
-            'precio' => "$350",
+            'precio' => "$350 kg",
             'imagen' => "/images/productos/cacao-polvo.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
@@ -1076,7 +983,7 @@ $productos = array(
             'imagen' => "/images/productos/bomba.jpg",
             'imagen2' => "",
             'venta' => "Granel",
-            'activo' => "0"
+            'activo' => "1"
         ),
         1 => array(
             'id' => 2,
@@ -1123,7 +1030,7 @@ $productos = array(
         ),
         5 => array(
             'id' => 6,
-            'nombre' => "Enjambre de amaranto oscuro",
+            'nombre' => "Enjambre de amaranto semiamargo",
             'descripcion' => "Enjambre de Amaranto con Nueces y Chocolate Semiamargo 30 gr",
             'precio' => "$40",
             'imagen' => "/images/productos/enjambre.jpg",
@@ -1155,7 +1062,7 @@ $productos = array(
             'id' => 9,
             'nombre' => "Miel de abeja multifloral",
             'descripcion' => "Disfruta de una miel pura de abeja, multifloral 100% natural.",
-            'precio' => "$280",
+            'precio' => "$175",
             'imagen' => "/images/productos/miel.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -1188,7 +1095,7 @@ $productos = array(
             'nombre' => "Molinillo mini",
             'descripcion' => "",
             // Molinillo mini
-            'precio' => "$40",
+            'precio' => "$45",
             'imagen' => "/images/productos/molinillo-mini.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -1198,7 +1105,7 @@ $productos = array(
             'id' => 13,
             'nombre' => "Molinillo chico",
             'descripcion' => "Batidor especial para la preparación del chocolate caliente, siendo su principal función disolver el chocolate y producir espuma.",
-            'precio' => "$100",
+            'precio' => "$65",
             'imagen' => "/images/productos/molino.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -1228,12 +1135,12 @@ $productos = array(
         ),
         15 => array(
             'id' => 16,
-            'nombre' => "Paquete - Vino tinto con crema de moka y chocolate",
+            'nombre' => "Conejitos de pascua",
             'descripcion' => "",
-            'precio' => "$1950",
-            'imagen' => "/images/productos/vino-crema.jpg",
+            'precio' => "$50",
+            'imagen' => "/images/productos/conejito.jpg",
             'imagen2' => "",
-            'venta' => "Por pieza",
+            'venta' => "Granel",
             'activo' => "1"
         ),
         16 => array(
@@ -1241,7 +1148,7 @@ $productos = array(
             'nombre' => "Separador de libros",
             'descripcion' => "",
             // Separador de libros
-            'precio' => "$50",
+            'precio' => "$",
             'imagen' => "/images/productos/separadores.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -1259,7 +1166,7 @@ $productos = array(
         ),
         18 => array(
             'id' => 19,
-            'nombre' => "Vaso natural de barro",
+            'nombre' => "Taza de barro colores",
             'descripcion' => "",
             'precio' => "$80",
             'imagen' => "/images/productos/vaso-natural.jpg",
@@ -1280,26 +1187,139 @@ $productos = array(
         ),
         20 => array(
             'id' => 21,
-            'nombre' => "Mazorca de ceramica",
+            'nombre' => "Mazorca de cerámica",
             'descripcion' => "",
             // Mazorca de ceramica
             'precio' => "$450",
             'imagen' => "/images/productos/mazorca-ceramica.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
-            'activo' => "1"
+            'activo' => "0"
         ),
         20 => array(
             'id' => 21,
-            'nombre' => "Experiencia Maridaje de chocolate obscuro con vino tinto",
+            'nombre' => "Tortuga de nuez y dátil 35gr.",
+            'descripcion' => "Un buen snack, almendras tostadas cubiertas con chocolate semi amargo.",
+            'precio' => "$50",
+            'imagen' => "/images/productos/tortuga.jpg",
+            'imagen2' => "",
+            'venta' => "Por kilo o gramaje",
+            'activo' => "1"
+        ),
+        21 => array(
+            'id' => 22,
+            'nombre' => "Caja con 9 chocolates",
             'descripcion' => "",
-            // Experiencia Maridaje de chocolate obscuro con vino tinto
-            'precio' => "Pregunte por nuestros precios",
-            'imagen' => "/images/productos/exp-vino.jpg",
+            // Caja con 35 bombones de chocolate
+            'precio' => "Precio variable, pregunte en nuestra tienda.",
+            'imagen' => "/images/productos/caja-35.jpg",
+            'imagen2' => "",
+            'venta' => "Caja",
+            'activo' => "0"
+        ),
+        22 => array(
+            'id' => 23,
+            'nombre' => "Caja con 25 chocolates",
+            'descripcion' => "Caja con 25 bombones de chocolate",
+            'precio' => "Precio variable, pregunte en nuestra tienda.",
+            'imagen' => "/images/productos/caja-25-1.jpg",
+            'imagen2' => "/images/productos/caja-25-2.jpg",
+            'venta' => "Caja",
+            'activo' => "0"
+        ),
+        23 => array(
+            'id' => 24,
+            'nombre' => "Caja con 35 chocolates",
+            'descripcion' => "",
+            // Caja con 35 bombones de chocolate
+            'precio' => "Precio variable, pregunte en nuestra tienda.",
+            'imagen' => "/images/productos/caja-35.jpg",
+            'imagen2' => "",
+            'venta' => "Caja",
+            'activo' => "0"
+        ),
+        24 => array(
+            'id' => 25,
+            'nombre' => "Caja con 50 chocolates",
+            'descripcion' => "",
+            // Caja con 35 bombones de chocolate
+            'precio' => "Precio variable, pregunte en nuestra tienda.",
+            'imagen' => "/images/productos/caja-50.jpg",
+            'imagen2' => "/images/productos/caja-50-2.jpg",
+            'venta' => "Caja",
+            'activo' => "0"
+        ),
+        25 => array(
+            'id' => 26,
+            'nombre' => "Bolsitas bombones de colores rellenos",
+            'descripcion' => "Bolsita Bombones diferentes colores 150 gr",
+            'precio' => "$270",
+            'imagen' => "/images/productos/bolsita-colores.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "0"
+        ),
+        26 => array(
+            'id' => 27,
+            'nombre' => "Taza Natural barro",
+            'descripcion' => "",
+            'precio' => "$90",
+            'imagen' => "/images/productos/vaso-natural.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
             'activo' => "1"
-        )
+        ),
+        27 => array(
+            'id' => 28,
+            'nombre' => "Experiencia Maridaje de chocolate obscuro con vino tinto",
+            'descripcion' => "",
+            // Experiencia Maridaje de chocolate obscuro con vino tinto
+            'precio' => "500",
+            'imagen' => "/images/productos/exp-vino.jpg",
+            'imagen2' => "",
+            'venta' => "Por persona",
+            'activo' => "1"
+        ),
+        28 => array(
+            'id' => 29,
+            'nombre' => "Galleta rellena de chocolate semiamargo",
+            'descripcion' => "Galleta rellena de chocolate semiamargo y cubiertas con chocolate 100% cacao, 50gr.",
+            'precio' => "$50",
+            'imagen' => "/images/productos/galleta-rellena.jpg",
+            'imagen2' => "",
+            'venta' => "Por gramaje",
+            'activo' => "1"
+        ),
+        29 => array(
+            'id' => 30,
+            'nombre' => "Tejas de cacahuate chocolate amargo al 100% cacao",
+            'descripcion' => "Un buen snack, almendras tostadas cubiertas con chocolate semi amargo 12gr.",
+            'precio' => "$20",
+            'imagen' => "/images/productos/tejas.jpg",
+            'imagen2' => "",
+            'venta' => "Por kilo o gramaje",
+            'activo' => "0"
+        ),
+        31 => array(
+            'id' => 32,
+            'nombre' => "Paquete - Vino tinto con crema de moka y chocolate",
+            'descripcion' => "",
+            'precio' => "$1950",
+            'imagen' => "/images/productos/vino-crema.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "1"
+        ),
+        32 => array(
+            'id' => 33,
+            'nombre' => "Molinillo mediano",
+            'descripcion' => "Batidor especial para la preparación del chocolate caliente, siendo su principal función disolver el chocolate y producir espuma.",
+            'precio' => "$130",
+            'imagen' => "/images/productos/molino.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "1"
+        ),
 
     ),
     'Empaque' => array(
@@ -1342,7 +1362,7 @@ $productos = array(
             'imagen' => "/images/productos/cayuco-acuarela.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
-            'activo' => "0"
+            'activo' => "1"
         ),
         4 => array(
             'id' => 5,
@@ -1352,7 +1372,7 @@ $productos = array(
             'imagen' => "/images/productos/cayuco-gde.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
-            'activo' => "0"
+            'activo' => "1"
         ),
         5 => array(
             'id' => 6,
@@ -1362,7 +1382,7 @@ $productos = array(
             'imagen' => "/images/productos/cayuco-med-acuarela.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
-            'activo' => "0"
+            'activo' => "1"
         ),
         6 => array(
             'id' => 7,
@@ -1378,7 +1398,7 @@ $productos = array(
             'id' => 8,
             'nombre' => "Cofre en acuarela",
             'descripcion' => "Empaque Cofre De Madera En Acuarela",
-            'precio' => "$350",
+            'precio' => "$220",
             'imagen' => "/images/productos/cofre.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -1403,7 +1423,61 @@ $productos = array(
             'imagen2' => "",
             'venta' => "Por pieza",
             'activo' => "0"
-        )
+        ),
+        10 => array(
+            'id' => 11,
+            'nombre' => "Caja con 9 chocolates",
+            'descripcion' => "",
+            // Caja con 35 bombones de chocolate
+            'precio' => "$162",
+            'imagen' => "/images/productos/caja-9.jpg",
+            'imagen2' => "",
+            'venta' => "Caja",
+            'activo' => "1"
+        ),
+        11 => array(
+            'id' => 12,
+            'nombre' => "Caja con 25 chocolates",
+            'descripcion' => "Caja con 25 bombones de chocolate",
+            'precio' => "$450",
+            'imagen' => "/images/productos/caja-25-1.jpg",
+            'imagen2' => "/images/productos/caja-25-2.jpg",
+            'venta' => "Caja",
+            'activo' => "1"
+        ),
+        12 => array(
+            'id' => 13,
+            'nombre' => "Caja con 35 chocolates",
+            'descripcion' => "",
+            // Caja con 35 bombones de chocolate
+            'precio' => "$630",
+            'imagen' => "/images/productos/caja-35.jpg",
+            'imagen2' => "",
+            'venta' => "Caja",
+            'activo' => "1"
+        ),
+        13 => array(
+            'id' => 14,
+            'nombre' => "Caja con 50 chocolates",
+            'descripcion' => "",
+            // Caja con 35 bombones de chocolate
+            'precio' => "$900",
+            'imagen' => "/images/productos/caja-50.jpg",
+            'imagen2' => "/images/productos/caja-50-2.jpg",
+            'venta' => "Caja",
+            'activo' => "1"
+        ),
+        14 => array(
+            'id' => 15,
+            'nombre' => "Bolsitas bombones de colores rellenos",
+            'descripcion' => "Bolsita Bombones diferentes colores 150 gr",
+            'precio' => "$270",
+            'imagen' => "/images/productos/bolsita-colores.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "1"
+        ),
+        
     ),
 
 );
