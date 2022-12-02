@@ -69,3 +69,93 @@
     ?>
     </div>
     <!-- FIN DE PRODUCTOS CHOCOLATRE /- -->
+
+
+
+
+
+
+
+    <!-- Segundo con if -->
+
+    <div id="menu-section" class="menu-section container-fluid" style="padding-top: 8rem">
+        <!-- Menu Section -->
+        <?
+    include('arrayProduct.php');
+    foreach ($productos as $categoria => $articulos) {
+
+?>
+    <div class="container">
+        <div class="section-header">
+            <h3><?php echo $categoria; ?></h3>
+            <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />
+
+        </div>
+        <!-- Section Header /-  -->
+    </div>
+    <!-- Container /- -->
+
+
+
+    <?php
+    $cantidad_de_productos = sizeof($articulos);
+    $ajuste_de_linea = 0;
+
+    if ($cantidad_de_productos % 2 != 0) {
+        $ajuste_de_linea = 1;
+    }
+
+    $columna_1 = round($cantidad_de_productos / 2);
+    $columna_2 = $columna_1 - $ajuste_de_linea;
+    $counter = 0;
+
+    foreach ($articulos as $key => $value) {
+       
+        // echo "<pre>";
+        // var_dump($value);
+        // echo "</pre>";
+       
+
+        if ($value['activo'] == "1") {
+        if ($counter == 0) {
+            
+            echo '<div class="row text-center">';
+            echo '<div class="col-md-6 col-sm-6 col-xs-6" style="height: auto !important">';
+           
+        }
+     
+
+    ?>
+    <div class="productos">
+        <img style=" height: 400px;" class="product" src="<?php echo $value['imagen']; ?>" alt="image not found" />
+
+        <!-- <a href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>"
+            title="Ver producto">Ver producto</a> -->
+
+        <h3>
+            <a style="color:#3d180b !important;"
+                href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>"><?php echo $value['nombre']; ?></a>
+        </h3>
+        <div style="max-height: 8rem; overflow: hidden; margin-bottom: 1rem;">
+            <p style="color:#3d180b;">
+                <?php echo $value['precio']; ?> </br>
+            </p>
+            <h4><a style="color:#3d180b !important;"
+                    href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>">Ver
+                    más</a></h4>
+        </div>
+    </div>
+
+    <?
+        $counter++;
+        if ($counter == $columna_1) {
+            echo "</div>";
+            echo '<div class="col-md-6 col-sm-6 col-xs-6">';
+        }
+    }
+}
+    echo "</div></div>";
+}
+?>
+</div>
+<!-- FIN DE PRODUCTOS CHOCOLATRE /- -->
