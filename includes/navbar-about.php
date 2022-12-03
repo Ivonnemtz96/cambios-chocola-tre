@@ -29,7 +29,7 @@
 <header class="header-main header-position container-fluid no-padding" style="background-color: #000;">
     <!-- Menu Block -->
     <div class="menu-block container-fluid no-padding">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Navigation -->
             <nav class="navbar ow-navigation">
                 <div class="navbar-header">
@@ -51,7 +51,7 @@
                 <div class="navbar-collapse collapse navbar-right" id="navbar">
                     <ul class="nav navbar-nav menubar">
                         <li class="<?php echo $inicio ?>">
-                            <a style="font-size: 9px;" href="index.php" title="Portfolio" role="button" aria-haspopup="true">Inicio</a>
+                            <a href="index.php" title="Portfolio" role="button" aria-haspopup="true">Inicio</a>
                             <!-- <ul class="dropdown-menu">
                                  <li>
                                      <a href="index-2.html" title="Portfolio grid">Home 1</a>
@@ -59,20 +59,23 @@
                              </ul> -->
                         </li>
                         <li class=" <?php echo $nosotros ?>">
-                            <a  style="font-size: 9px;" href="about.php" role="button" aria-haspopup="true">Nosotros</a>
+                            <a href="about.php" role="button" aria-haspopup="true">Nosotros</a>
                         </li>
-                        <li class="<?php echo $productos ?>"><a  style="font-size: 9px;" href="productos.php">Productos</a></li>
+                        <li class="<?php echo $productos ?>"><a href="productos.php">Productos</a></li>
                         <li class="<?php echo $proceso ?>">
-                            <a  style="font-size: 9px;" href="proceso.php">Proceso</a>
+                            <a href="proceso.php">Proceso</a>
+                        </li>
+                        <li >
+                            <a href="#Empaque">Empaque</a>
                         </li>
                         <li class="<?php echo $historia ?>">
-                            <a  style="font-size: 9px;" href="historia.php">Historia del chocolate</a>
+                            <a href="historia.php">Historia del chocolate</a>
                         </li>
                         <li class="<?php echo $galeria ?>">
-                            <a  style="font-size: 9px;" href="galeria.php">Galería</a>
+                            <a href="galeria.php">Galería</a>
                         </li>
                         <li class="<?php echo $contacto ?>">
-                            <a  style="font-size: 9px;" href="contact.php">Contáctanos</a>
+                            <a href="contact.php">Contáctanos</a>
                         </li>
 
                         <li>

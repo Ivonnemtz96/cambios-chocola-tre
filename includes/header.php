@@ -3,7 +3,7 @@
     <!-- Navigation -->
     <div class="menu-block container-fluid no-padding">
         <!-- Container -->
-        <div class="container">
+        <div class="container-fluid">
             <nav class="navbar ow-navigation">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -52,6 +52,9 @@
                         </li>
                         <li class="<?php echo $proceso ?>">
                             <a href="proceso.php">Proceso</a>
+                        </li>
+                        <li class="<?php echo $proceso ?>">
+                            <a href="#Empaque">empaque</a>
                         </li>
                         <li class="<?php echo $historia ?>">
                             <a href="historia.php">Historia del chocolate</a>

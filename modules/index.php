@@ -103,7 +103,7 @@
     ?>
         <div class="container">
             <div class="section-header">
-                <h3><?php echo $categoria; ?></h3>
+                <h3 id="<?php echo $categoria; ?>"><?php echo $categoria; ?></h3>
                 <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />
 
             </div>
@@ -466,7 +466,7 @@
 
 
                     <div class="col-md-12 col-sm-12 col-xs-12 contact-detail" style="padding-top: 10px;">
-                        <div class="col-md-4 col-sm-4 col-xs-4 contact-content">
+                        <div class="col-md-4 col-sm-12 col-xs-12 contact-content">
                             <div class="contact-info">
                                 <h3>Dirección</h3>
                                 <p>Blvd. Antonio Mijares(junto a Banamex)</p>
@@ -474,7 +474,7 @@
                                 <p>San José del Cabo, B.C.S</p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-4 contact-content">
+                        <div class="col-md-4 col-sm-12 col-xs-12 contact-content">
                             <div class="contact-info">
                                 <h3>Contacto</h3>
                                 <p><a href="tel:+526241526288" title="Teléfono fijo">(624-152-6288)</a> -- Teléfono
@@ -486,7 +486,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-4 contact-content">
+                        <div class="col-md-4 col-sm-12 col-xs-12 contact-content">
                             <div class="contact-info">
                                 <h3>Horario</h3>
                                 <p>Lunes - Sábado: 09:00am a 20:00pm</p>
