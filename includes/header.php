@@ -54,7 +54,7 @@
                             <a href="proceso.php">Proceso</a>
                         </li>
                         <li class="<?php echo $proceso ?>">
-                            <a href="#Empaque">empaque</a>
+                            <a href="productos.php#Empaque">Empaque</a>
                         </li>
                         <li class="<?php echo $historia ?>">
                             <a href="historia.php">Historia del chocolate</a>
