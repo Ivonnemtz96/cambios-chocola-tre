@@ -42,7 +42,7 @@
                         <a style="color:#3d180b !important;"
                             href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>"><?php echo $value['nombre']; ?></a>
                     </h3>
-                    <div style="max-height: 8rem; overflow: hidden; margin-bottom: 1rem;">
+                    <div class="prod" style="max-height: 8rem; overflow: hidden; margin-bottom: 1rem;">
                         <p style="color:#3d180b;">
                             <?php echo $value['precio']; ?> </br>
                         </p>
@@ -61,6 +61,6 @@
     
     <?
     }
+
     ?>
-        </div>
-        <!-- FIN DE PRODUCTOS CHOCOLATRE /- -->
+</div>
