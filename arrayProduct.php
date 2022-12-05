@@ -185,7 +185,7 @@ $productos = array(
             'imagen' => "/images/productos/vino.jpg",
             'imagen2' => "",
             'venta' => "Granel",
-            'activo' => "1"
+            'activo' => "0"
         ),
         17 => array(
             'id' => 18,
@@ -534,7 +534,7 @@ $productos = array(
             'imagen' => "/images/productos/barra-maltitol.jpg",
             'imagen2' => "",
             'venta' => "Granel",
-            'activo' => "1"
+            'activo' => "0"
         ),
         9 => array(
             'id' => 10,
