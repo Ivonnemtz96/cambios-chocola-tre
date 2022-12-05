@@ -35,7 +35,7 @@
                         </div>
                     </article>
                 </div>
-                <div class="col-md-3 col-sm-4 col-xs-12 widget-area">
+                <div hidden class="col-md-3 col-sm-4 col-xs-12 widget-area">
                     <!-- Widget Categories /-  -->
                     <aside class="widget widget-text">
                         <h3 class="widget-title">El sabor auténtico del cacao mexicano</h3>
