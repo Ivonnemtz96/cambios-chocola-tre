@@ -36,7 +36,7 @@
                  </div> -->
                 <div id="navbar" class="navbar-collapse collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="<?php echo $inicio ?>">
+                        <li class="">
                             <a href="index.php" title="Portfolio" role="button" aria-haspopup="true">Inicio</a>
                             <!-- <ul class="dropdown-menu">
                                  <li>
@@ -44,27 +44,27 @@
                                  </li>
                              </ul> -->
                         </li>
-                        <li class="<?php echo $nosotros ?>">
-                            <a href="about.php" role="button">Nosotros</a>
+                        <li class="">
+                            <a href="" role="button">Nosotros</a>
                         </li>
-                        <li class="<?php echo $productos ?>">
-                            <a href="productos.php">Productos</a>
+                        <li class="">
+                            <a href="index.php#productos">Productos</a>
                         </li>
-                        <li class="<?php echo $proceso ?>">
-                            <a href="proceso.php">Proceso</a>
+                        <li class="">
+                            <a href="index.php#proceso">Proceso</a>
                         </li>
-                        <li class="<?php echo $proceso ?>">
-                            <a href="productos.php#Empaque">Empaque</a>
+                        <li class="">
+                            <a href="index.php#Empaque">Empaque</a>
                         </li>
-                        <li class="<?php echo $historia ?>">
-                            <a href="historia.php">Historia del chocolate</a>
+                        <li class="">
+                            <a href="index.php#historia">Historia del chocolate</a>
                         </li>
-                        <li class="<?php echo $galeria ?>">
-                            <a href="galeria.php">Galería</a>
+                        <li class="">
+                            <a href="index.php#galeria">Galería</a>
                         </li>
                         
-                        <li class="<?php echo $contacto ?>">
-                            <a href="contact.php">Contáctanos</a>
+                        <li class="">
+                            <a href="index.php#contacto">Contáctanos</a>
                         </li>
                         <li>
                             <a title="Facebook" target="_blank" href="https://www.facebook.com/chocolatre.bcs">
