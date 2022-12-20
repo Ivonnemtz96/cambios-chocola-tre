@@ -185,12 +185,10 @@
                             <!-- <h5>Nuestra Historia</h5> -->
                             <img src="images/section-seprator-1.png" alt="section-seprator" width="70" height="3" />
                             <p>
-                                ¡Hola! Somos una empresa mexicana enfocados en la fabricación de chocolate, ubicados en
-                                San José del Cabo, B.C.S. Partimos de cacao mexicano, criollo almendra blanca que
-                                proviene de las haciendas cacaoteras mas grandes de Tabasco realizando el proceso
-                                conocido como: De Grano - A Barra.
-                                En Chocola.T te brindamos lo mejor del sabor y los beneficios del cacao criollo 100%
-                                mexicano.
+                                En Chocola-tre somos una empresa que tiene
+                                como objetivo dar a conocer que el origen del
+                                chocolate es en México, a través de productos
+                                de alta calidad
                             </p>
                             <!-- <a href="about.php" title="Ver más" class="read-more">Ver más</a> -->
                         </div>
