@@ -78,7 +78,7 @@
                                 En Chocola.T te brindamos lo mejor del sabor y los beneficios del cacao criollo 100%
                                 mexicano.
                             </p>
-                            <a href="about.php" title="Ver más" class="read-more">Ver más</a>
+                            <a href="index.php#productos" title="Ver más" class="read-more">Ver productos</a>
                         </div>
                         <!-- Section Header /-  -->
                     </div>
@@ -88,9 +88,73 @@
         <!-- Container /- -->
     </div>
     <!-- Welcome Section /- -->
+    <!-- Team Section -->
+    <div id="nosotros" class="team-section container-fluid no-padding">
+        <div class="section-padding"></div>
+        <div class="container" >
+            <div class="row">
+                <!-- Main Carousel -->
+                <div id="main-carousel1" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div role="listbox">
+                        <div class="item active">
+                            <div class="team-content">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <img src="images/team.jpg" alt="team" width="468" height="595" />
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="section-header left-header">
+                                        <h3>Conoce Chocola-Tre</h3>
+                                        <h5>CHOCOLA-TRE CACAO MEXICANO</h5>
+                                        <img src="images/section-seprator-1.png" alt="section-seprator" width="70" height="3" />
+                                        <p>
+                                            ¡Hola! Somos una empresa mexicana enfocados en la fabricación de chocolate, ubicados en San José del Cabo, B.C.S.
+                                            Partimos de cacao mexicano, criollo almendra blanca que proviene de las haciendas cacaotera mas grandes de México realizando el proceso conocido como: De Grano – A Barra.
+                                            En Chocola-Tre te brindamos lo mejor del sabor y los beneficios del cacao criollo 100% mexicano.
+                                        </p>
+                                    </div>
+                                    <!-- Section Header /-  -->
+                                    <div class="team-contact-info">
+                                        <h5>Chocola-Tre</h5>
+                                        <ul>
+                                            <li>
+                                                <a title="Facebook" target="_blank" href="https://www.facebook.com/chocolatre.bcs">
+                                                    <img src="images/facebook.png" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Instagram" target="_blank" href="https://www.instagram.com/explore/locations/106154638122587/chocolatre/">
+                                                    <img src="images/instagram.png" alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <p>
+                                            <a href="mailto:info@chocola-tre.com" title="info@chocola-tre.com"><i class="fa fa-envelope" aria-hidden="true"></i>info@chocola-tre.com</a>
+                                        </p>
+                                        <p>
+                                            <a href="tel:6241526288" title="624-152-6288">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>Teléfono: 624-152-6288</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <a class="left carousel-control" href="#main-carousel1" role="button" data-slide="prev">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </a>
+                    <a class="right carousel-control" href="#main-carousel1" role="button" data-slide="next">
+                        <i class="fa fa-caret-left" aria-hidden="true"></i>
+                    </a> -->
+                </div>
+                <!-- Main Carousel /-  -->
+            </div>
+        </div>
+        <!-- Container /- -->
+    </div>
+    <!-- Team Section /- -->
 
 
-    <div  id="productos" class="welcome-content" style="margin-top: 2rem;">
+    <div  id="productos" class="welcome-content" style="margin-top: 10rem;">
         <div class="section-header">
             <h3 style="text-align: center;">Productos</h3>
             <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />
