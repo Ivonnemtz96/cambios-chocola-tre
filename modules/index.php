@@ -1,6 +1,6 @@
-<main class="site-main page-spacing">
+<main class="site-main page-spacing" >
     <!-- Photo Slider -->
-    <div class="photo-slider container-fluid no-padding">
+    <div class="photo-slider container-fluid no-padding" id="inicio">
         <!-- Main Carousel -->
         <div id="main-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div role="listbox" class="carousel-inner">
@@ -90,7 +90,7 @@
     <!-- Welcome Section /- -->
 
 
-    <div id="productos" class="welcome-content" style="margin-top: 2rem;">
+    <div  id="productos" class="welcome-content" style="margin-top: 2rem;">
         <div class="section-header">
             <h3 style="text-align: center;">Productos</h3>
             <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />
@@ -99,16 +99,19 @@
     </div>
 
     <!-- PRODUCTOS CHCOLATRE -->
-    <div id="menu-section" class="menu-section container-fluid">
+    <div id="productos menu-section" class="menu-section container-fluid" >
 
         <!-- Menu Section -->
         <?
         include('arrayProduct.php');
 
         foreach ($productos as $categoria => $articulos) {
+            if ($categoria != "Empaque") {
+                
+            
 
     ?>
-        <div class="container">
+        <div   class="container">
             <div class="section-header">
                 <h3 id="<?php echo $categoria; ?>"><?php echo $categoria; ?></h3>
                 <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />
@@ -128,7 +131,7 @@
             // echo "</pre>";
            
 
-            if ($value['activo'] == "1") {
+            if ($value['activo'] == "1"){
         ?>
 
             <div class="col-md-4 col-sm-6 col-xs-12" style="height: auto !important">
@@ -143,7 +146,7 @@
                         <a style="color:#3d180b !important;"
                             href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>"><?php echo $value['nombre']; ?></a>
                     </h3>
-                    <div style="max-height: 8rem; overflow: hidden; margin-bottom: 1rem;">
+                    <div style="max-height: 8rem; overflow: hidden; margin-bottom: 1rem;" id="<?php echo $value['nombre']; ?>">
                         <p style="color:#3d180b;">
                             <?php echo $value['precio']; ?> </br>
                         </p>
@@ -156,6 +159,7 @@
             <?
         }
     }
+}
     ?>
 
         </div>
@@ -164,9 +168,84 @@
     }
     ?>
     </div>
+<!-- FIN PRODUCTOS CHCOLATRE -->
+
+
+
+<!-- EMPAQUE CHCOLATRE -->
+<div id="menu-section empaque" class="menu-section container-fluid">
+<?
+include('arrayProduct.php');
+
+foreach ($productos as $categoria => $articulos) {
+    if ($categoria == "Empaque") {
+        
+    
+
+?>
+<div class="container" id="empaque">
+    <div class="section-header">
+        <h3 id="<?php echo $categoria; ?>"><?php echo $categoria; ?></h3>
+        <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />
+
+    </div>
+    <!-- Section Header /-  -->
+</div>
+<!-- Container /- -->
+
+<div class="row text-center">
+
+    <?php
+foreach ($articulos as $key => $value) {
+   
+    // echo "<pre>";
+    // var_dump($value);
+    // echo "</pre>";
+   
+
+    if ($value['activo'] == "1"){
+?>
+
+    <div class="col-md-4 col-sm-6 col-xs-12" style="height: auto !important">
+        <div class="productos">
+            <img style=" height: 400px;" class="product" src="<?php echo $value['imagen']; ?>"
+                alt="image not found" />
+
+            <!-- <a href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>"
+        title="Ver producto">Ver producto</a> -->
+
+            <h3>
+                <a style="color:#3d180b !important;"
+                    href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>"><?php echo $value['nombre']; ?></a>
+            </h3>
+            <div style="max-height: 8rem; overflow: hidden; margin-bottom: 1rem;" id="<?php echo $value['nombre']; ?>">
+                <p style="color:#3d180b;">
+                    <?php echo $value['precio']; ?> </br>
+                </p>
+                <h4><a style="color:#3d180b !important;"
+                        href="detail.php?cat=<?php echo urlencode($categoria); ?>&prod=<?php echo $value['id']; ?>">Ver
+                        más</a></h4>
+            </div>
+        </div>
+    </div>
+    <?
+}
+}
+}
+?>
+
+</div>
+
+<?
+}
+?>
+</div>
+<!-- FIN EMPAQUE CHCOLATRE -->
+
+
 
     <!-- Welcome Section -->
-    <div class="welcome-section container-fluid no-padding" id="nosotros">
+    <div class="welcome-section container-fluid no-padding">
         <div class="section-padding"></div>
         <div class="container">
             <div class="row">
@@ -204,13 +283,13 @@
 
 
     <!-- PROCESO DEL CHOCOLATE VIDEO SECTION -->
-    <div class="welcome-content" style="margin-top:5rem;" id="proceso" <?php echo $proceso = "active" ?>>
+    <div class="welcome-content" style="margin-top:5rem;" id="proceso">
         <div class="section-header left-header">
             <h3 style="text-align: center;">Proceso del chocolate </h3>
         </div>
         <!-- Section Header /-  -->
     </div>
-    <div class="video-container">
+    <div class="video-container" id="proceso">
         <iframe src="https://www.youtube.com/embed/TZbpIY7IPBA" title="Video Chocolate" frameborder="0"
             allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>

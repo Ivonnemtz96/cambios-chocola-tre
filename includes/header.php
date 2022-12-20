@@ -34,36 +34,35 @@
                          </li>
                      </ul>
                  </div> -->
-                <div id="navbar" class="navbar-collapse collapse navbar-right">
+                <div id="navbar" class="navbar-collapse collapse navbar-right" >
                     <ul class="nav navbar-nav">
-                        <li class="">
-                            <a href="index.php" title="Portfolio" role="button" aria-haspopup="true">Inicio</a>
+                        <li >
+                            <a href="index.php#inicio">Inicio</a>
                             <!-- <ul class="dropdown-menu">
                                  <li>
                                      <a href="index-2.php" title="Portfolio grid">Home 1</a>
                                  </li>
                              </ul> -->
                         </li>
-                        <li class="">
-                            <a href="index.php#nosotros" role="button">Nosotros</a>
+                        <li >
+                            <a href="index.php#nosotros" >Nosotros</a>
                         </li>
-                        <li class="">
+                        <li >
                             <a href="index.php#productos">Productos</a>
                         </li>
-                        <li class="">
+                        <li >
                             <a href="index.php#proceso">Proceso</a>
                         </li>
-                        <li class="">
-                            <a href="index.php#Empaque">Empaque</a>
+                        <li >
+                            <a href="index.php#empaque">Empaque</a>
                         </li>
-                        <li class="">
+                        <li >
                             <a href="index.php#historia">Historia del chocolate</a>
                         </li>
-                        <li class="">
+                        <li >
                             <a href="index.php#galeria">Galería</a>
                         </li>
-                        
-                        <li class="">
+                        <li >
                             <a href="index.php#contacto">Contáctanos</a>
                         </li>
                         <li>

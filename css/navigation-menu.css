@@ -10,6 +10,21 @@
 
 /* * Navigation Menu */
 
+header div ul li a:hover,
+header div ul li a.active {
+    background-color: #956221;
+}
+.reveal {
+	position: relative;
+	opacity: 0;
+	transition: 3s all ease;
+  }
+  
+  .reveal.active {
+	transform: translateY(0);
+	opacity: 1;
+  }
+
 .ow-navigation {
 	border: none;
     border-radius: 0;
@@ -72,7 +87,7 @@
 .ow-navigation .navbar-nav > li.active > a::after, 
 .ow-navigation .navbar-nav > li.active > a:focus::after, 
 .ow-navigation .navbar-nav > li.active > a:hover::after,
-.ow-navigation .nav.navbar-nav li > a:hover::after {
+.ow-navigation .nav.navbar-nav li > a:hover::after{
 	background-color: #956221;
     content: "";
     height: 18px;
