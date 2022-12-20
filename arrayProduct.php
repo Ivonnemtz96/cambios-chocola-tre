@@ -420,7 +420,7 @@ $productos = array(
             'imagen' => "/images/productos/datil.jpg",
             'imagen2' => "",
             'venta' => "Pieza",
-            'activo' => "1"
+            'activo' => "0"
         ),
     ),
     'Barras Mexicanas' => array(
@@ -1036,7 +1036,7 @@ $productos = array(
             'imagen' => "/images/productos/enjambre.jpg",
             'imagen2' => "",
             'venta' => "Granel",
-            'activo' => "1"
+            'activo' => "0"
         ),
         6 => array(
             'id' => 7,
@@ -1288,7 +1288,7 @@ $productos = array(
             'imagen' => "/images/productos/galleta-rellena.jpg",
             'imagen2' => "",
             'venta' => "Por gramaje",
-            'activo' => "1"
+            'activo' => "0"
         ),
         29 => array(
             'id' => 30,
@@ -1320,6 +1320,52 @@ $productos = array(
             'venta' => "Por pieza",
             'activo' => "1"
         ),
+
+    ),
+    'Especiales' => array(
+        0 => array(
+            'id' => 1,
+            'nombre' => "Conejitos de pascua",
+            'descripcion' => "",
+            // Conejitos de pascua
+            'precio' => "$50",
+            'imagen' => "/images/productos/conejito.jpg",
+            'imagen2' => "",
+            'venta' => "Granel",
+            'activo' => "1"
+        ),
+        1 => array(
+            'id' => 2,
+            'nombre' => "Dátil relleno de almendra",
+            'descripcion' => "Dátil relleno de almendra y cubierto con chocolate semiamargo",
+            // Caja con 50 bombones de chocolate
+            'precio' => "$",
+            'imagen' => "/images/productos/datil.jpg",
+            'imagen2' => "",
+            'venta' => "Pieza",
+            'activo' => "1"
+        ),
+        2 => array(
+            'id' => 3,
+            'nombre' => "Enjambre de amaranto semiamargo",
+            'descripcion' => "Enjambre de Amaranto con Nueces y Chocolate Semiamargo 30 gr",
+            'precio' => "$40",
+            'imagen' => "/images/productos/enjambre.jpg",
+            'imagen2' => "",
+            'venta' => "Granel",
+            'activo' => "1"
+        ),
+        3 => array(
+            'id' => 4,
+            'nombre' => "Galleta relleno semiamargo y cubiertas con chocolate 100% cacao",
+            'descripcion' => "Galleta relleno semiamargo y cubiertas con chocolate 100% cacao, 50gr.",
+            'precio' => "$50",
+            'imagen' => "/images/productos/galleta-rellena.jpg",
+            'imagen2' => "",
+            'venta' => "Por kilo o gramaje",
+            'activo' => "1"
+        ),
+
 
     ),
     'Empaque' => array(

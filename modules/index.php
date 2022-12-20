@@ -1,4 +1,4 @@
-<main class="site-main page-spacing" >
+<main class="site-main page-spacing">
     <!-- Photo Slider -->
     <div class="photo-slider container-fluid no-padding">
         <!-- Main Carousel -->
@@ -90,10 +90,17 @@
     <!-- Welcome Section /- -->
 
 
-
+    <div id="" class="welcome-content" style="margin-top: 2rem;">
+        <div class="section-header">
+            <h3 style="text-align: center;">Productos</h3>
+            <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />
+        </div>
+        <!-- Section Header /-  -->
+    </div>
 
     <!-- PRODUCTOS CHCOLATRE -->
-    <div id="menu-section" class="menu-section container-fluid" style="padding-top: 8rem">
+    <div id="menu-section" class="menu-section container-fluid">
+
         <!-- Menu Section -->
         <?
         include('arrayProduct.php');
@@ -101,7 +108,7 @@
         foreach ($productos as $categoria => $articulos) {
 
     ?>
-        <div class="container" id="" >
+        <div class="container">
             <div class="section-header">
                 <h3 id="<?php echo $categoria; ?>"><?php echo $categoria; ?></h3>
                 <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />
@@ -157,8 +164,45 @@
     }
     ?>
     </div>
-    <!-- FIN DE PRODUCTOS CHOCOLATRE /- -->
 
+    <!-- Welcome Section -->
+    <div class="welcome-section container-fluid no-padding" id="nosotros">
+        <div class="section-padding"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <img src="/images/productos/exp-vino.jpg" alt="Experiencia de vino" width="457" height="700" />
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 wc-content-box">
+                    <!-- <div class="welcome-header">
+                        <span>Lo Mejor</span><br> <br>
+                        <h5>Del</h5><br><br>
+                        <h5>Cacao</h5>
+                    </div> -->
+                    <div class="welcome-content">
+                        <div class="section-header left-header">
+                            <h3>Servicio de Maridaje</h3>
+                            <!-- <h5>Nuestra Historia</h5> -->
+                            <img src="images/section-seprator-1.png" alt="section-seprator" width="70" height="3" />
+                            <p>
+                                ¡Hola! Somos una empresa mexicana enfocados en la fabricación de chocolate, ubicados en
+                                San José del Cabo, B.C.S. Partimos de cacao mexicano, criollo almendra blanca que
+                                proviene de las haciendas cacaoteras mas grandes de Tabasco realizando el proceso
+                                conocido como: De Grano - A Barra.
+                                En Chocola.T te brindamos lo mejor del sabor y los beneficios del cacao criollo 100%
+                                mexicano.
+                            </p>
+                            <!-- <a href="about.php" title="Ver más" class="read-more">Ver más</a> -->
+                        </div>
+                        <!-- Section Header /-  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Container /- -->
+    </div>
+    <!-- Welcome Section /- -->
+    <!-- FIN DE PRODUCTOS CHOCOLATRE /- -->
 
 
     <!-- PROCESO DEL CHOCOLATE VIDEO SECTION -->
@@ -178,7 +222,7 @@
 
     <div class="section-padding"></div>
 
-    <div id="historia" class="welcome-content" style="margin-top: 5rem;" >
+    <div id="historia" class="welcome-content" style="margin-top: 5rem;">
         <div class="section-header left-header">
             <h3 style="text-align: center;">Historia del Chocolate</h3>
         </div>
@@ -193,7 +237,7 @@
 
     <!-- Galería -->
     <section class="section-primary pt-120 pb-120 gallery masonry">
-        <div id="galeria" class="welcome-content" style="margin-top: 5rem;" <?php echo $galeria = "active" ?>  >
+        <div id="galeria" class="welcome-content" style="margin-top: 5rem;" <?php echo $galeria = "active" ?>>
             <div class="section-header left-header">
                 <h3 style="text-align: center;">Galería</h3>
             </div>
