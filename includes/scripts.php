@@ -20,6 +20,9 @@
  <!-- magnific popup -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.magnific-popup/1.0.0/jquery.magnific-popup.min.js"></script>
 
+<!-- Triger js -->
+<script src="//cdn.jsdelivr.net/npm/@triggerjs/trigger" defer></script>
+
  <script>
     $(document).ready(function() {
 
