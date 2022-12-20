@@ -1420,7 +1420,7 @@ $productos = array(
             'descripcion' => "",
             'precio' => "$500",
             'imagen' => "/images/productos/acuarela-gde.jpg",
-            'imagen2' => "/images/productos/acuarela2.jpg",
+            'imagen2' => "/images/productos/acuarela-2.jpg",
             'venta' => "Por pieza",
             'activo' => "1"
         ),
@@ -1430,7 +1430,7 @@ $productos = array(
             'descripcion' => "",
             'precio' => "$220",
             'imagen' => "/images/productos/cayuco-ac-chico.jpg",
-            'imagen2' => "/images/productos/acuarela2.jpg",
+            'imagen2' => "/images/productos/acuarela-2.jpg",
             'venta' => "Por pieza",
             'activo' => "1"
         ),
@@ -1440,7 +1440,7 @@ $productos = array(
             'descripcion' => "",
             'precio' => "$350",
             'imagen' => "/images/productos/cayuco-gde.jpg?=1",
-            'imagen2' => "/images/productos/pirograbado2.jpg",
+            'imagen2' => "/images/productos/pirograbado-2.jpg",
             'venta' => "Por pieza",
             'activo' => "1"
         ),
@@ -1450,7 +1450,7 @@ $productos = array(
             'descripcion' => "",
             'precio' => "$140",
             'imagen' => "/images/productos/cayuco-chico.jpg",
-            'imagen2' => "/images/productos/pirograbado2.jpg",
+            'imagen2' => "/images/productos/pirograbado-2.jpg",
             'venta' => "Por pieza",
             'activo' => "1"
         ),
