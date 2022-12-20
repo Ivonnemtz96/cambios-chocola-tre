@@ -182,10 +182,10 @@ $productos = array(
             'nombre' => "Trufas",
             'descripcion' => "Trufas de chocolate semiamargo: sabor natural y moka",
             'precio' => "$15 a $18 pesos por pieza",
-            'imagen' => "/images/productos/vino.jpg",
+            'imagen' => "/images/productos/trufas.jpg",
             'imagen2' => "",
             'venta' => "Granel",
-            'activo' => "0"
+            'activo' => "1"
         ),
         17 => array(
             'id' => 18,
@@ -410,18 +410,7 @@ $productos = array(
             'imagen2' => "",
             'venta' => "Granel",
             'activo' => "1"
-        ),
-        9 => array(
-            'id' => 10,
-            'nombre' => "Dátil relleno de almendra",
-            'descripcion' => "Dátil relleno de almendra y cubierto con chocolate semiamargo",
-            // Caja con 50 bombones de chocolate
-            'precio' => "$",
-            'imagen' => "/images/productos/datil.jpg",
-            'imagen2' => "",
-            'venta' => "Pieza",
-            'activo' => "0"
-        ),
+        )
     ),
     'Barras Mexicanas' => array(
         0 => array(
@@ -588,14 +577,13 @@ $productos = array(
         ),
         14 => array(
             'id' => 15,
-            'nombre' => "Conejitos de pascua",
-            'descripcion' => "",
-            // Conejitos de pascua
-            'precio' => "$50",
-            'imagen' => "/images/productos/conejito.jpg",
+            'nombre' => "Barra grande Maltitol",
+            'descripcion' => "Barra de chocolate semiamargo diseño greca 79gr",
+            'precio' => "$",
+            'imagen' => "/images/productos/barra-maltitol.jpg",
             'imagen2' => "",
             'venta' => "Granel",
-            'activo' => "0"
+            'activo' => "1"
         ),
         15 => array(
             'id' => 16,
@@ -627,6 +615,7 @@ $productos = array(
             'venta' => "Granel",
             'activo' => "1"
         ),
+        
     ),
     'Marqueta' => array(
         0 => array(
@@ -713,7 +702,7 @@ $productos = array(
         ),
         5 => array(
             'id' => 6,
-            'nombre' => "Galleta relleno semiamargo y cubiertas con chocolate 100% cacao",
+            'nombre' => "Galleta relleno semiamargo y cubiertas con chocolate",
             'descripcion' => "Galleta relleno semiamargo y cubiertas con chocolate 100% cacao, 50gr.",
             'precio' => "$50",
             'imagen' => "/images/productos/galleta-rellena.jpg",
@@ -758,27 +747,28 @@ $productos = array(
             'nombre' => "Gotas de chocolate 100%",
             'descripcion' => "Gotas de chocolate 100% cacao",
             'precio' => "$570 kg",
-            'imagen' => "/images/productos/semi-amargo.jpg",
+            'imagen' => "/images/productos/gota-100.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
             'activo' => "1"
         ),
+        
         1 => array(
             'id' => 2,
-            'nombre' => "Gotas de chocolate al 38%",
-            'descripcion' => "Gotas de chocolate 38% - 100 gramos",
-            'precio' => "$540 kg",
-            'imagen' => "/images/productos/semi-amargo.jpg",
+            'nombre' => "Gotas de chocolate al 70%",
+            'descripcion' => "Gotas de chocolate 70% - 100 gramos",
+            'precio' => "$540.jpg",
+            'imagen' => "/images/productos/gota-70.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
             'activo' => "1"
         ),
         2 => array(
             'id' => 3,
-            'nombre' => "Gotas de chocolate blanco",
-            'descripcion' => "Gotas de chocolate blanco",
+            'nombre' => "Gotas de chocolate al 38%",
+            'descripcion' => "Gotas de chocolate 38% - 100 gramos",
             'precio' => "$540 kg",
-            'imagen' => "/images/productos/blanco.jpg",
+            'imagen' => "/images/productos/gotas-choco-38.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
             'activo' => "1"
@@ -788,21 +778,22 @@ $productos = array(
             'nombre' => "Gotas de chocolate de maltitol",
             'descripcion' => "",
             'precio' => "$680 kg",
-            'imagen' => "/images/productos/semi-amargo.jpg",
+            'imagen' => "/images/productos/gota-maltitol.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
             'activo' => "1"
         ),
         4 => array(
             'id' => 5,
-            'nombre' => "Gotas de chocolate al 70%",
-            'descripcion' => "Gotas de chocolate 70% - 100 gramos",
-            'precio' => "$540.jpg",
-            'imagen' => "/images/productos/semi-amargo.jpg",
+            'nombre' => "Gotas de chocolate blanco",
+            'descripcion' => "Gotas de chocolate blanco",
+            'precio' => "$540 kg",
+            'imagen' => "/images/productos/blanco.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
             'activo' => "1"
         )
+        
     ),
     'Granos' => array(
         0 => array(
@@ -810,7 +801,7 @@ $productos = array(
             'nombre' => "Granos de chocolate semiamargo al 70% cacao",
             'descripcion' => "Grano Chocolate Semiamargo al 70% cacao  100 gramos",
             'precio' => "$110 kg",
-            'imagen' => "/images/productos/semi-amargo.jpg",
+            'imagen' => "/images/productos/grano-70.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
             'activo' => "1"
@@ -830,7 +821,7 @@ $productos = array(
             'nombre' => "Granos de chocolate de leche",
             'descripcion' => "Grano Chocolate de leche  100 gramos",
             'precio' => "$110 kg",
-            'imagen' => "/images/productos/semi-amargo.jpg",
+            'imagen' => "/images/productos/grano-leche.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
             'activo' => "1"
@@ -983,7 +974,7 @@ $productos = array(
             'imagen' => "/images/productos/bomba.jpg",
             'imagen2' => "",
             'venta' => "Granel",
-            'activo' => "1"
+            'activo' => "0"
         ),
         1 => array(
             'id' => 2,
@@ -1070,22 +1061,21 @@ $productos = array(
         ),
         9 => array(
             'id' => 10,
-            'nombre' => "Mini plato con bombón",
+            'nombre' => "Miel 1.380 litros",
             'descripcion' => "",
-            // Mini Platito Con Bombón
-            'precio' => "$50",
-            'imagen' => "/images/productos/mini-plato.jpg",
+            // Olla grande de barro
+            'precio' => "$230",
+            'imagen' => "/images/productos/miel-1litro.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
             'activo' => "1"
         ),
         10 => array(
             'id' => 11,
-            'nombre' => "Molinillo grande ",
-            'descripcion' => "",
-            // Molinillo grande
-            'precio' => "$160",
-            'imagen' => "/images/productos/molinillo.jpg",
+            'nombre' => "Molinillo chico",
+            'descripcion' => "Batidor especial para la preparación del chocolate caliente, siendo su principal función disolver el chocolate y producir espuma.",
+            'precio' => "$65",
+            'imagen' => "/images/productos/molino.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
             'activo' => "1"
@@ -1103,9 +1093,9 @@ $productos = array(
         ),
         12 => array(
             'id' => 13,
-            'nombre' => "Molinillo chico",
+            'nombre' => "Molinillo mediano",
             'descripcion' => "Batidor especial para la preparación del chocolate caliente, siendo su principal función disolver el chocolate y producir espuma.",
-            'precio' => "$65",
+            'precio' => "$130",
             'imagen' => "/images/productos/molino.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -1113,22 +1103,23 @@ $productos = array(
         ),
         13 => array(
             'id' => 14,
+            'nombre' => "Molinillo grande ",
+            'descripcion' => "",
+            // Molinillo grande
+            'precio' => "$160",
+            'imagen' => "/images/productos/molinillo.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "1"
+        ),
+        
+        14 => array(
+            'id' => 15,
             'nombre' => "Olla grande con tapa de barro",
             'descripcion' => "",
             // Olla grande con tapa de barro
             'precio' => "$700",
             'imagen' => "/images/productos/olla-gde-tapa.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "1"
-        ),
-        14 => array(
-            'id' => 15,
-            'nombre' => "Olla grande de barro",
-            'descripcion' => "",
-            // Olla grande de barro
-            'precio' => "$600",
-            'imagen' => "/images/productos/olla-gde-barro.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
             'activo' => "1"
@@ -1141,7 +1132,7 @@ $productos = array(
             'imagen' => "/images/productos/conejito.jpg",
             'imagen2' => "",
             'venta' => "Granel",
-            'activo' => "1"
+            'activo' => "0"
         ),
         16 => array(
             'id' => 17,
@@ -1156,9 +1147,9 @@ $productos = array(
         ),
         17 => array(
             'id' => 18,
-            'nombre' => "Vino tinto Corona del Valle",
+            'nombre' => "Vino tinto Calle Once",
             'descripcion' => "",
-            'precio' => "$595",
+            'precio' => "$700",
             'imagen' => "/images/productos/vino-tinto.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
@@ -1169,7 +1160,7 @@ $productos = array(
             'nombre' => "Taza de barro colores",
             'descripcion' => "",
             'precio' => "$80",
-            'imagen' => "/images/productos/vaso-natural.jpg",
+            'imagen' => "/images/productos/taza-colores.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
             'activo' => "1"
@@ -1208,14 +1199,14 @@ $productos = array(
         ),
         21 => array(
             'id' => 22,
-            'nombre' => "Caja con 9 chocolates",
+            'nombre' => "Taza cerámica con logo",
             'descripcion' => "",
             // Caja con 35 bombones de chocolate
-            'precio' => "Precio variable, pregunte en nuestra tienda.",
-            'imagen' => "/images/productos/caja-35.jpg",
+            'precio' => "$170",
+            'imagen' => "/images/productos/taza-ceramica.jpg",
             'imagen2' => "",
-            'venta' => "Caja",
-            'activo' => "0"
+            'venta' => "Pieza",
+            'activo' => "1"
         ),
         22 => array(
             'id' => 23,
@@ -1278,7 +1269,7 @@ $productos = array(
             'imagen' => "/images/productos/exp-vino.jpg",
             'imagen2' => "",
             'venta' => "Por persona",
-            'activo' => "1"
+            'activo' => "0"
         ),
         28 => array(
             'id' => 29,
@@ -1302,6 +1293,28 @@ $productos = array(
         ),
         31 => array(
             'id' => 32,
+            'nombre' => "Mini plato con bombón",
+            'descripcion' => "",
+            // Mini Platito Con Bombón
+            'precio' => "$50",
+            'imagen' => "/images/productos/mini-plato.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "1"
+        ),
+        32 => array(
+            'id' => 33,
+            'nombre' => "Olla grande de barro",
+            'descripcion' => "",
+            // Olla grande de barro
+            'precio' => "$600",
+            'imagen' => "/images/productos/olla-gde-barro.jpg",
+            'imagen2' => "",
+            'venta' => "Por pieza",
+            'activo' => "1"
+        ),
+        33 => array(
+            'id' => 34,
             'nombre' => "Paquete - Vino tinto con crema de moka y chocolate",
             'descripcion' => "",
             'precio' => "$1950",
@@ -1310,16 +1323,7 @@ $productos = array(
             'venta' => "Por pieza",
             'activo' => "1"
         ),
-        32 => array(
-            'id' => 33,
-            'nombre' => "Molinillo mediano",
-            'descripcion' => "Batidor especial para la preparación del chocolate caliente, siendo su principal función disolver el chocolate y producir espuma.",
-            'precio' => "$130",
-            'imagen' => "/images/productos/molino.jpg",
-            'imagen2' => "",
-            'venta' => "Por pieza",
-            'activo' => "1"
-        ),
+        
 
     ),
     'Especiales' => array(
@@ -1339,7 +1343,7 @@ $productos = array(
             'nombre' => "Dátil relleno de almendra",
             'descripcion' => "Dátil relleno de almendra y cubierto con chocolate semiamargo",
             // Caja con 50 bombones de chocolate
-            'precio' => "$",
+            'precio' => "$25",
             'imagen' => "/images/productos/datil.jpg",
             'imagen2' => "",
             'venta' => "Pieza",
@@ -1357,12 +1361,22 @@ $productos = array(
         ),
         3 => array(
             'id' => 4,
-            'nombre' => "Galleta relleno semiamargo y cubiertas con chocolate 100% cacao",
+            'nombre' => "Galleta rellena y cubiertas con chocolate semiamargo",
             'descripcion' => "Galleta relleno semiamargo y cubiertas con chocolate 100% cacao, 50gr.",
             'precio' => "$50",
             'imagen' => "/images/productos/galleta-rellena.jpg",
             'imagen2' => "",
             'venta' => "Por kilo o gramaje",
+            'activo' => "1"
+        ),
+        4 => array(
+            'id' => 5,
+            'nombre' => "Bombas de chocolate",
+            'descripcion' => "Bombas de Chocolate 55 gr",
+            'precio' => "$100",
+            'imagen' => "/images/productos/bomba.jpg",
+            'imagen2' => "",
+            'venta' => "Granel",
             'activo' => "1"
         ),
 
@@ -1405,28 +1419,28 @@ $productos = array(
             'nombre' => "Cayuco grande en acuarela",
             'descripcion' => "",
             'precio' => "$500",
-            'imagen' => "/images/productos/cayuco-acuarela.jpg",
-            'imagen2' => "",
+            'imagen' => "/images/productos/acuarela-gde.jpg",
+            'imagen2' => "/images/productos/acuarela2.jpg",
             'venta' => "Por pieza",
             'activo' => "1"
         ),
         4 => array(
             'id' => 5,
-            'nombre' => "Cayuco grande pirograbado",
+            'nombre' => "Cayuco mediano en acuarela",
             'descripcion' => "",
-            'precio' => "$350",
-            'imagen' => "/images/productos/cayuco-gde.jpg",
-            'imagen2' => "",
+            'precio' => "$220",
+            'imagen' => "/images/productos/cayuco-ac-chico.jpg",
+            'imagen2' => "/images/productos/acuarela2.jpg",
             'venta' => "Por pieza",
             'activo' => "1"
         ),
         5 => array(
             'id' => 6,
-            'nombre' => "Cayuco mediano en acuarela",
+            'nombre' => "Cayuco grande pirograbado",
             'descripcion' => "",
-            'precio' => "$220",
-            'imagen' => "/images/productos/cayuco-med-acuarela.jpg",
-            'imagen2' => "",
+            'precio' => "$350",
+            'imagen' => "/images/productos/cayuco-gde.jpg?=1",
+            'imagen2' => "/images/productos/pirograbado2.jpg",
             'venta' => "Por pieza",
             'activo' => "1"
         ),
@@ -1434,18 +1448,18 @@ $productos = array(
             'id' => 7,
             'nombre' => "Cayuco mediano pirograbado",
             'descripcion' => "",
-            'precio' => "$140.jpg",
-            'imagen' => "/images/productos/cayuco-mediano.jpg",
-            'imagen2' => "",
+            'precio' => "$140",
+            'imagen' => "/images/productos/cayuco-chico.jpg",
+            'imagen2' => "/images/productos/pirograbado2.jpg",
             'venta' => "Por pieza",
-            'activo' => "0"
+            'activo' => "1"
         ),
         7 => array(
             'id' => 8,
             'nombre' => "Cofre en acuarela",
             'descripcion' => "Empaque Cofre De Madera En Acuarela",
             'precio' => "$220",
-            'imagen' => "/images/productos/cofre.jpg",
+            'imagen' => "/images/productos/cofre-acuarela.jpg",
             'imagen2' => "",
             'venta' => "Por pieza",
             'activo' => "1"
@@ -1515,6 +1529,17 @@ $productos = array(
         ),
         14 => array(
             'id' => 15,
+            'nombre' => "Caja con 9 chocolates Veganos",
+            'descripcion' => "",
+            // Caja con 35 bombones de chocolate
+            'precio' => "$162",
+            'imagen' => "/images/productos/caja-9.jpg",
+            'imagen2' => "",
+            'venta' => "Caja",
+            'activo' => "1"
+        ),
+        15 => array(
+            'id' => 16,
             'nombre' => "Bolsitas bombones de colores rellenos",
             'descripcion' => "Bolsita Bombones diferentes colores 150 gr",
             'precio' => "$270",

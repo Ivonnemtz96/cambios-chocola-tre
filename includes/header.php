@@ -45,7 +45,7 @@
                              </ul> -->
                         </li>
                         <li class="">
-                            <a href="" role="button">Nosotros</a>
+                            <a href="index.php#nosotros" role="button">Nosotros</a>
                         </li>
                         <li class="">
                             <a href="index.php#productos">Productos</a>

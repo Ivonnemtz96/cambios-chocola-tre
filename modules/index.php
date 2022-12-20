@@ -90,7 +90,7 @@
     <!-- Welcome Section /- -->
 
 
-    <div id="" class="welcome-content" style="margin-top: 2rem;">
+    <div id="productos" class="welcome-content" style="margin-top: 2rem;">
         <div class="section-header">
             <h3 style="text-align: center;">Productos</h3>
             <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />

@@ -18,7 +18,7 @@
                         <h2 style="margin-bottom: 5rem;"><?php echo $producto;?> <span
                                 style="font-size: 20px;color:gray"><?php echo $precio;?></span></h2>
                         <div class="fotorama text-center" data-fit="cover" data-autoplay="3000"
-                            data-loop="true" data-arrows="false" data-click="false" data-swipe="true" data-nav="true" style="margin-left:0;">
+                            data-loop="true" data-arrows="false" data-click="true" data-swipe="true" data-nav="true" style="margin-left:0;">
                             <img class="img-fluid" src="<?php echo $imagen2;?>" alt="image not found" data-fit="contain" alt="">
                             <img class="img-fluid" src="<?php echo $imagen;?>" alt="image not found" data-fit="contain" alt="">
                             <!-- <img src="<?php echo $imagen;?>" alt="blog" width="200" height="330"> -->
