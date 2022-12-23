@@ -23,18 +23,186 @@
         right: 10px;
     }
 
-</style>
-<a href="https://wa.me/+526241136699?text=Hola%20me%20gustaria%20saber%20más%20de%20sus%20productos." target="_blank">
-    <img src="images/WA.png" alt="WhatsApp" id="whatsapp" />
-</a>
+        .whats-float {
+            position: fixed;
+            transform: translate(108px, 0px);
+            top: 250px;
+            right: 0;
+            width: 150px;
+            overflow: hidden;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 2px 0 0 2px;
+            z-index: 10;
+            transition: all 0.5s ease-in-out;
+            vertical-align: middle
+        }
 
-<a href="https://www.facebook.com/chocolatre.bcs" target="_blank">
+        .whats-float a span {
+            color: white;
+            font-size: 15px;
+            padding-top: 8px;
+            padding-bottom: 10px;
+            position: absolute;
+            line-height: 16px;
+            font-weight: bolder;
+        }
+
+        .whats-float i {
+            font-size: 30px;
+            color: white;
+            line-height: 30px;
+            padding: 10px;
+            transform: rotate(0deg);
+            transition: all 0.5s ease-in-out;
+            text-align: center;
+
+        }
+
+        .whats-float:hover {
+            color: #FFFFFF;
+            transform: translate(0px, 0px);
+        }
+
+        .whats-float:hover i {
+            transform: rotate(360deg);
+        }
+
+
+        .insta-float {
+            position: fixed;
+            transform: translate(108px, 0px);
+            top: 310px;
+            right: 0;
+            width: 150px;
+            overflow: hidden;
+            background:linear-gradient(2deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+            color: #FFF;
+            border-radius: 2px 0 0 2px;
+            z-index: 10;
+            transition: all 0.5s ease-in-out;
+            vertical-align: middle
+        }
+
+        .insta-float a span {
+            color: white;
+            font-size: 15px;
+            padding-top: 8px;
+            padding-bottom: 10px;
+            position: absolute;
+            line-height: 16px;
+            font-weight: bolder;
+        }
+
+        .insta-float i {
+            font-size: 30px;
+            color: white;
+            line-height: 30px;
+            padding: 10px;
+            transform: rotate(0deg);
+            transition: all 0.5s ease-in-out;
+            text-align: center;
+
+        }
+
+        .insta-float:hover {
+            color: #FFFFFF;
+            transform: translate(0px, 0px);
+        }
+
+        .insta-float:hover i {
+            transform: rotate(360deg);
+        }
+
+
+        .fb-float {
+            position: fixed;
+            transform: translate(108px, 0px);
+            top: 370px;
+            right: 0;
+            width: 150px;
+            overflow: hidden;
+            background-color: #3b5998;
+            color: #FFF;
+            border-radius: 2px 0 0 2px;
+            z-index: 10;
+            transition: all 0.5s ease-in-out;
+            vertical-align: middle
+        }
+
+        .fb-float a span {
+            color: white;
+            font-size: 15px;
+            padding-top: 8px;
+            padding-bottom: 10px;
+            position: absolute;
+            line-height: 16px;
+            font-weight: bolder;
+        }
+
+        .fb-float i {
+            font-size: 30px;
+            color: white;
+            line-height: 30px;
+            padding: 10px;
+            transform: rotate(0deg);
+            transition: all 0.5s ease-in-out;
+            text-align: center;
+
+        }
+
+        .fb-float:hover {
+            color: #FFFFFF;
+            transform: translate(0px, 0px);
+        }
+
+        .fb-float:hover i {
+            transform: rotate(360deg);
+        }
+
+        .margen-menu {
+            margin: 0 150px;
+        }
+
+        .logo-home {
+                max-width: 200px
+            }
+
+        @media (max-width: 800px) {
+            .margen-menu {
+                margin: 0px;
+            }
+            .logo-home {
+                max-width: 200px
+            }
+        }
+    </style>
+
+<div class="whats-float">
+        <a href="https://wa.me/+526241136699?text=Hola%20me%20gustaría%20saber%20más%20de%20sus%20productos." target="_blank">
+            <i class="fa fa-whatsapp"></i><span>WhatsApp<br><small>(624) 113 6699</small></span>
+        </a>
+    </div>
+
+    <div class="insta-float">
+        <a href="https://www.instagram.com/chocola_tre/" target="_blank">
+            <i class="fa fa-instagram"></i><span>Instagram<br><small>@Chocola_tre</small></span>
+        </a>
+    </div>
+
+    <div class="fb-float">
+        <a href="https://www.facebook.com/chocolatre.bcs" target="_blank">
+            <i style="margin: 0px 4px;" class="fa fa-facebook"></i><span>Chocolatre</span>
+        </a>
+    </div>
+
+<!-- <a href="https://www.facebook.com/chocolatre.bcs" target="_blank">
     <img src="images/fb.png" alt="facebook" id="face" />
 </a>
 
 <a href="https://www.instagram.com/chocolatre.bcs/" target="_blank">
     <img src="images/insta.png" alt="WhatsApp" id="insta" />
-</a>
+</a> -->
 
 
 

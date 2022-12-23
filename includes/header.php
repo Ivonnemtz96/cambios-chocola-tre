@@ -71,7 +71,7 @@
                             </a>
                         </li>
                         <li>
-                            <a title="Instagram" target="_blank" href="https://www.instagram.com/explore/locations/106154638122587/chocolatre/">
+                            <a title="Instagram" target="_blank" href="https://www.instagram.com/chocola_tre/">
                                 <img src="images/instagram.png" alt="">
                             </a>
                         </li>

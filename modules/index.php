@@ -156,9 +156,7 @@
 
     <div  id="productos" class="welcome-content" style="margin-top: 10rem;">
         <div class="section-header">
-            <h3 style="text-align: center;">Productos</h3>
-            <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15" />
-        </div>
+            <h3 style="text-align: center; color: #000; font-size:7rem;">Productos</h3>
         <!-- Section Header /-  -->
     </div>
 
@@ -314,7 +312,7 @@ foreach ($articulos as $key => $value) {
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-6">
-                    <img src="/images/productos/exp-vino.jpg" alt="Experiencia de vino" width="457" height="700" />
+                    <img src="/images/productos/exp-vino2.jpg" alt="Experiencia de vino" width="457" height="700" />
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-6 wc-content-box">
                     <!-- <div class="welcome-header">
@@ -515,15 +513,15 @@ foreach ($articulos as $key => $value) {
                 <!-- <h3 style="margin-bottom: 2rem;">¡Síguenos en redes sociales!</h3> -->
                 <div class="col-2 col-md-2" style="margin-bottom: 3rem;"></div>
                 <div class="col-4 col-md-4" style="margin-bottom: 3rem;">
-                    <a href="https://www.facebook.com/chocolatre.bcs">
+                    <a href="https://www.facebook.com/chocolatre.bcs" target="_blank">
                         <img src="images/fb.png" alt="chocolatre">
                         <h2 style="color:#3d180b !important;">ChocolaTre</h2>
                     </a>
                 </div>
                 <div class="col-4 col-md-4" style="margin-bottom: 3rem;">
-                    <a href="https://www.instagram.com/chocolatre.bcs/">
+                    <a href="https://www.instagram.com/chocola_tre/" target="_blank">
                         <img src="images/insta.png" alt="chocolatre">
-                        <h2 style="color:#3d180b !important;">@chocolatre.bcs</h2>
+                        <h2 style="color:#3d180b !important;">@chocolatre_bcs</h2>
                     </a>
                 </div>
                 <div class="col-2 col-md-2" style="margin-bottom: 3rem;"></div>
