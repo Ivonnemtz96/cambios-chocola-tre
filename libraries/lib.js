@@ -1008,7 +1008,7 @@ if ("undefined" == typeof jQuery)
     };
     (c.VERSION = "3.3.6"),
       (c.TRANSITION_DURATION = 600),
-      (c.DEFAULTS = { interval: 5e3, pause: "hover", wrap: !0, keyboard: !0 }),
+      (c.DEFAULTS = { interval: 3e3, pause: "hover", wrap: !0, keyboard: !0 }),
       (c.prototype.keydown = function (a) {
         if (!/input|textarea/i.test(a.target.tagName)) {
           switch (a.which) {
@@ -4390,10 +4390,9 @@ jQuery.extend(jQuery.easing, {
         this.core.$element.on(this.handlers);
     };
     (d.Defaults = {
-      autoplay: !1,
-      autoplayTimeout: 5e3,
-      autoplayHoverPause: !1,
-      autoplaySpeed: !1,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplaySpeed: 3000,
     }),
       (d.prototype.autoplay = function () {
         this.core.settings.autoplay && !this.core.state.videoPlay

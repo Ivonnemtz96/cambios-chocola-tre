@@ -203,19 +203,18 @@
 				margin: 0,
 				nav: false,
 				dots: false,
-				autoplay: false,
+				autoplay: true,
+				autoplayTimeout: 2000,
+				
 				responsive:{
 					0:{
 						items: 1
 					},
-					500:{
+					600:{
 						items: 2
 					},
-					600:{
-						items: 3
-					},
 					1000:{
-						items: 5
+						items: 3
 					}
 				}
 			});
